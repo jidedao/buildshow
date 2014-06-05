@@ -7,6 +7,7 @@
 //
 
 #import "HLMainView.h"
+#import "QHMapView.h"
 
 @implementation HLMainView
 - (void)dealloc
@@ -124,7 +125,11 @@
 //点击区域按钮
 - (IBAction)clickAreaMapBtn:(id)sender
 {
-    
+    QHMapView *mapview = [QHMapView createHLCustomView];
+    [mapview setWillRemoveBlock:^{
+
+    }];
+    [self addSubview:mapview];
 }
 //点击园林按钮
 - (IBAction)clickGradenViewBtn:(id)sender

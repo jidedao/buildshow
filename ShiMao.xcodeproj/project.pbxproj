@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D16CEDB1940322E005BFE1E /* QHMapView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D16CEDA1940322E005BFE1E /* QHMapView.mm */; };
+		0D16CEDD1940324C005BFE1E /* QHMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D16CEDC1940324C005BFE1E /* QHMapView.xib */; };
 		0D3C3154193D762B00F707E5 /* 区域标-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3144193D762B00F707E5 /* 区域标-点.png */; };
 		0D3C3155193D762B00F707E5 /* 区域标.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3145193D762B00F707E5 /* 区域标.png */; };
 		0D3C3156193D762B00F707E5 /* 园林标-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3146193D762B00F707E5 /* 园林标-点.png */; };
@@ -121,6 +123,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D16CED91940322E005BFE1E /* QHMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHMapView.h; sourceTree = "<group>"; };
+		0D16CEDA1940322E005BFE1E /* QHMapView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QHMapView.mm; sourceTree = "<group>"; };
+		0D16CEDC1940324C005BFE1E /* QHMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHMapView.xib; sourceTree = "<group>"; };
 		0D3C3144193D762B00F707E5 /* 区域标-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "区域标-点.png"; sourceTree = "<group>"; };
 		0D3C3145193D762B00F707E5 /* 区域标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "区域标.png"; sourceTree = "<group>"; };
 		0D3C3146193D762B00F707E5 /* 园林标-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林标-点.png"; sourceTree = "<group>"; };
@@ -361,6 +366,9 @@
 		873D2869193DA87A00F5DFCF /* MapView */ = {
 			isa = PBXGroup;
 			children = (
+				0D16CED91940322E005BFE1E /* QHMapView.h */,
+				0D16CEDA1940322E005BFE1E /* QHMapView.mm */,
+				0D16CEDC1940324C005BFE1E /* QHMapView.xib */,
 			);
 			name = MapView;
 			sourceTree = "<group>";
@@ -707,6 +715,7 @@
 				BA86A1C2193CB61900E74E1F /* Default@2x.png in Resources */,
 				873D28AA193DA9A600F5DFCF /* 娱乐按钮.png in Resources */,
 				873D288C193DA99800F5DFCF /* 商业按钮-点.png in Resources */,
+				0D16CEDD1940324C005BFE1E /* QHMapView.xib in Resources */,
 				873D28FD193DA9C200F5DFCF /* E3.png in Resources */,
 				873D288D193DA99800F5DFCF /* 商业按钮.png in Resources */,
 				873D28F8193DA9C200F5DFCF /* 3D按钮.png in Resources */,
@@ -743,6 +752,7 @@
 				873D2864193DA79800F5DFCF /* HLPublicUtilTool.mm in Sources */,
 				BA86A1BE193CB61900E74E1F /* AppDelegate.m in Sources */,
 				873D285A193DA64000F5DFCF /* HLCustomOriginView.mm in Sources */,
+				0D16CEDB1940322E005BFE1E /* QHMapView.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
