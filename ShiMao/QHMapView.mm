@@ -49,7 +49,7 @@
 {
     [super initView];
 
-    [igBeiJing setImage:[UIImage imageNamed:@"底图.PNG"]];
+    [igBeiJing setImage:[UIImage imageNamed:@"底图122.PNG"]];
 //    [igDiTu setImage:[UIImage imageNamed:@"地图.png"]];
 //    [igJiaoTong setImage:[UIImage imageNamed:@"交通.png"]];
 //    [igYiYuan setImage:[UIImage imageNamed:@"医院.png"]];
@@ -78,11 +78,6 @@
 {
     UIButton *btn = (UIButton *)sender;
     int tag = btn.tag;
-    if(tag == 999)
-    {
-        [super clickCloseBtn:nil];
-        [self removeFromSuperview];
-    }
     if(tag == 0)
     {
         igJiaoTong.hidden = NO;
@@ -101,6 +96,12 @@
         tag != 5 ? igXueXiao.hidden = YES: igXueXiao.hidden = NO;
         tag != 6 ? igJingDian.hidden = YES: igJingDian.hidden = NO;
     }
+}
+
+- (IBAction)clickCloseBtn:(id)sender
+{
+    [super clickCloseBtn:nil];
+    [self removeFromSuperview];
 }
 
 @end

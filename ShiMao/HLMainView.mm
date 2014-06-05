@@ -9,6 +9,7 @@
 #import "HLMainView.h"
 #import "QHMapView.h"
 #import "GroupIntroductionView.h"
+#import "QHProjectView.h"
 
 @implementation HLMainView
 - (void)dealloc
@@ -166,6 +167,15 @@
 //点击项目按钮
 - (IBAction)clickProjectBtn:(id)sender
 {
-    
+    QHProjectView *projectView = [QHProjectView createHLCustomView];
+    [self addSubview:projectView];
+    [UIView animateKeyframesWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
+        projectView.center = CGPointMake(512, 384);
+    } completion:^(BOOL finished) {
+        
+    }];
+    [projectView setWillRemoveBlock:^{
+        
+    }];
 }
 @end

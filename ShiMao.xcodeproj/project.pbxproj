@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0D16CEDB1940322E005BFE1E /* QHMapView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D16CEDA1940322E005BFE1E /* QHMapView.mm */; };
 		0D16CEDD1940324C005BFE1E /* QHMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D16CEDC1940324C005BFE1E /* QHMapView.xib */; };
+		0D16CEE019404A57005BFE1E /* QHProjectView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D16CEDF19404A57005BFE1E /* QHProjectView.mm */; };
+		0D16CEE219404A6E005BFE1E /* QHProjectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D16CEE119404A6E005BFE1E /* QHProjectView.xib */; };
 		0D3C3154193D762B00F707E5 /* 区域标-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3144193D762B00F707E5 /* 区域标-点.png */; };
 		0D3C3155193D762B00F707E5 /* 区域标.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3145193D762B00F707E5 /* 区域标.png */; };
 		0D3C3156193D762B00F707E5 /* 园林标-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3146193D762B00F707E5 /* 园林标-点.png */; };
@@ -39,15 +41,15 @@
 		873D287D193DA98D00F5DFCF /* 园林7.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D2874193DA98D00F5DFCF /* 园林7.PNG */; };
 		873D287E193DA98D00F5DFCF /* 园林8.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D2875193DA98D00F5DFCF /* 园林8.PNG */; };
 		873D287F193DA98D00F5DFCF /* 园林9.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D2876193DA98D00F5DFCF /* 园林9.PNG */; };
-		873D288A193DA99800F5DFCF /* 别墅按钮-点.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D2881193DA99800F5DFCF /* 别墅按钮-点.PNG */; };
-		873D288B193DA99800F5DFCF /* 别墅按钮.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D2882193DA99800F5DFCF /* 别墅按钮.PNG */; };
-		873D288C193DA99800F5DFCF /* 商业按钮-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2883193DA99800F5DFCF /* 商业按钮-点.png */; };
-		873D288D193DA99800F5DFCF /* 商业按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2884193DA99800F5DFCF /* 商业按钮.png */; };
-		873D288E193DA99800F5DFCF /* 底图.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2885193DA99800F5DFCF /* 底图.png */; };
-		873D288F193DA99800F5DFCF /* 洋房按钮-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2886193DA99800F5DFCF /* 洋房按钮-点.png */; };
-		873D2890193DA99800F5DFCF /* 洋房按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2887193DA99800F5DFCF /* 洋房按钮.png */; };
-		873D2891193DA99800F5DFCF /* 高层按钮-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2888193DA99800F5DFCF /* 高层按钮-点.png */; };
-		873D2892193DA99800F5DFCF /* 高层按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2889193DA99800F5DFCF /* 高层按钮.png */; };
+		873D288A193DA99800F5DFCF /* 别墅按钮123-点.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D2881193DA99800F5DFCF /* 别墅按钮123-点.PNG */; };
+		873D288B193DA99800F5DFCF /* 别墅按钮123.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D2882193DA99800F5DFCF /* 别墅按钮123.PNG */; };
+		873D288C193DA99800F5DFCF /* 商业按钮123-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2883193DA99800F5DFCF /* 商业按钮123-点.png */; };
+		873D288D193DA99800F5DFCF /* 商业按钮123.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2884193DA99800F5DFCF /* 商业按钮123.png */; };
+		873D288E193DA99800F5DFCF /* 底图123.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2885193DA99800F5DFCF /* 底图123.png */; };
+		873D288F193DA99800F5DFCF /* 洋房按钮123-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2886193DA99800F5DFCF /* 洋房按钮123-点.png */; };
+		873D2890193DA99800F5DFCF /* 洋房按钮123.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2887193DA99800F5DFCF /* 洋房按钮123.png */; };
+		873D2891193DA99800F5DFCF /* 高层按钮123-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2888193DA99800F5DFCF /* 高层按钮123-点.png */; };
+		873D2892193DA99800F5DFCF /* 高层按钮123.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2889193DA99800F5DFCF /* 高层按钮123.png */; };
 		873D28A2193DA9A600F5DFCF /* 交通.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2894193DA9A600F5DFCF /* 交通.png */; };
 		873D28A3193DA9A600F5DFCF /* 交通按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2895193DA9A600F5DFCF /* 交通按钮.png */; };
 		873D28A4193DA9A600F5DFCF /* 医院.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2896193DA9A600F5DFCF /* 医院.png */; };
@@ -59,7 +61,7 @@
 		873D28AA193DA9A600F5DFCF /* 娱乐按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D289C193DA9A600F5DFCF /* 娱乐按钮.png */; };
 		873D28AB193DA9A600F5DFCF /* 学校.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D289D193DA9A600F5DFCF /* 学校.png */; };
 		873D28AC193DA9A600F5DFCF /* 学校按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D289E193DA9A600F5DFCF /* 学校按钮.png */; };
-		873D28AD193DA9A600F5DFCF /* 底图.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D289F193DA9A600F5DFCF /* 底图.PNG */; };
+		873D28AD193DA9A600F5DFCF /* 底图122.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D289F193DA9A600F5DFCF /* 底图122.PNG */; };
 		873D28AE193DA9A600F5DFCF /* 景点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28A0193DA9A600F5DFCF /* 景点.png */; };
 		873D28AF193DA9A600F5DFCF /* 景点按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28A1193DA9A600F5DFCF /* 景点按钮.png */; };
 		873D28BF193DA9AE00F5DFCF /* 下拉菜单.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28B1193DA9AE00F5DFCF /* 下拉菜单.png */; };
@@ -126,6 +128,9 @@
 		0D16CED91940322E005BFE1E /* QHMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHMapView.h; sourceTree = "<group>"; };
 		0D16CEDA1940322E005BFE1E /* QHMapView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QHMapView.mm; sourceTree = "<group>"; };
 		0D16CEDC1940324C005BFE1E /* QHMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHMapView.xib; sourceTree = "<group>"; };
+		0D16CEDE19404A57005BFE1E /* QHProjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHProjectView.h; sourceTree = "<group>"; };
+		0D16CEDF19404A57005BFE1E /* QHProjectView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QHProjectView.mm; sourceTree = "<group>"; };
+		0D16CEE119404A6E005BFE1E /* QHProjectView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHProjectView.xib; sourceTree = "<group>"; };
 		0D3C3144193D762B00F707E5 /* 区域标-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "区域标-点.png"; sourceTree = "<group>"; };
 		0D3C3145193D762B00F707E5 /* 区域标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "区域标.png"; sourceTree = "<group>"; };
 		0D3C3146193D762B00F707E5 /* 园林标-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林标-点.png"; sourceTree = "<group>"; };
@@ -161,15 +166,15 @@
 		873D2874193DA98D00F5DFCF /* 园林7.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林7.PNG"; sourceTree = "<group>"; };
 		873D2875193DA98D00F5DFCF /* 园林8.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林8.PNG"; sourceTree = "<group>"; };
 		873D2876193DA98D00F5DFCF /* 园林9.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林9.PNG"; sourceTree = "<group>"; };
-		873D2881193DA99800F5DFCF /* 别墅按钮-点.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "别墅按钮-点.PNG"; sourceTree = "<group>"; };
-		873D2882193DA99800F5DFCF /* 别墅按钮.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "别墅按钮.PNG"; sourceTree = "<group>"; };
-		873D2883193DA99800F5DFCF /* 商业按钮-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "商业按钮-点.png"; sourceTree = "<group>"; };
-		873D2884193DA99800F5DFCF /* 商业按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "商业按钮.png"; sourceTree = "<group>"; };
-		873D2885193DA99800F5DFCF /* 底图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底图.png"; sourceTree = "<group>"; };
-		873D2886193DA99800F5DFCF /* 洋房按钮-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "洋房按钮-点.png"; sourceTree = "<group>"; };
-		873D2887193DA99800F5DFCF /* 洋房按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "洋房按钮.png"; sourceTree = "<group>"; };
-		873D2888193DA99800F5DFCF /* 高层按钮-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高层按钮-点.png"; sourceTree = "<group>"; };
-		873D2889193DA99800F5DFCF /* 高层按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高层按钮.png"; sourceTree = "<group>"; };
+		873D2881193DA99800F5DFCF /* 别墅按钮123-点.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "别墅按钮123-点.PNG"; sourceTree = "<group>"; };
+		873D2882193DA99800F5DFCF /* 别墅按钮123.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "别墅按钮123.PNG"; sourceTree = "<group>"; };
+		873D2883193DA99800F5DFCF /* 商业按钮123-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "商业按钮123-点.png"; sourceTree = "<group>"; };
+		873D2884193DA99800F5DFCF /* 商业按钮123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "商业按钮123.png"; sourceTree = "<group>"; };
+		873D2885193DA99800F5DFCF /* 底图123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底图123.png"; sourceTree = "<group>"; };
+		873D2886193DA99800F5DFCF /* 洋房按钮123-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "洋房按钮123-点.png"; sourceTree = "<group>"; };
+		873D2887193DA99800F5DFCF /* 洋房按钮123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "洋房按钮123.png"; sourceTree = "<group>"; };
+		873D2888193DA99800F5DFCF /* 高层按钮123-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高层按钮123-点.png"; sourceTree = "<group>"; };
+		873D2889193DA99800F5DFCF /* 高层按钮123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高层按钮123.png"; sourceTree = "<group>"; };
 		873D2894193DA9A600F5DFCF /* 交通.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "交通.png"; sourceTree = "<group>"; };
 		873D2895193DA9A600F5DFCF /* 交通按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "交通按钮.png"; sourceTree = "<group>"; };
 		873D2896193DA9A600F5DFCF /* 医院.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "医院.png"; sourceTree = "<group>"; };
@@ -181,7 +186,7 @@
 		873D289C193DA9A600F5DFCF /* 娱乐按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "娱乐按钮.png"; sourceTree = "<group>"; };
 		873D289D193DA9A600F5DFCF /* 学校.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "学校.png"; sourceTree = "<group>"; };
 		873D289E193DA9A600F5DFCF /* 学校按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "学校按钮.png"; sourceTree = "<group>"; };
-		873D289F193DA9A600F5DFCF /* 底图.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底图.PNG"; sourceTree = "<group>"; };
+		873D289F193DA9A600F5DFCF /* 底图122.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底图122.PNG"; sourceTree = "<group>"; };
 		873D28A0193DA9A600F5DFCF /* 景点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "景点.png"; sourceTree = "<group>"; };
 		873D28A1193DA9A600F5DFCF /* 景点按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "景点按钮.png"; sourceTree = "<group>"; };
 		873D28B1193DA9AE00F5DFCF /* 下拉菜单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉菜单.png"; sourceTree = "<group>"; };
@@ -393,6 +398,9 @@
 		873D286C193DA92D00F5DFCF /* 360View */ = {
 			isa = PBXGroup;
 			children = (
+				0D16CEDE19404A57005BFE1E /* QHProjectView.h */,
+				0D16CEDF19404A57005BFE1E /* QHProjectView.mm */,
+				0D16CEE119404A6E005BFE1E /* QHProjectView.xib */,
 			);
 			name = 360View;
 			sourceTree = "<group>";
@@ -416,15 +424,15 @@
 		873D2880193DA99800F5DFCF /* 项目360 */ = {
 			isa = PBXGroup;
 			children = (
-				873D2881193DA99800F5DFCF /* 别墅按钮-点.PNG */,
-				873D2882193DA99800F5DFCF /* 别墅按钮.PNG */,
-				873D2883193DA99800F5DFCF /* 商业按钮-点.png */,
-				873D2884193DA99800F5DFCF /* 商业按钮.png */,
-				873D2885193DA99800F5DFCF /* 底图.png */,
-				873D2886193DA99800F5DFCF /* 洋房按钮-点.png */,
-				873D2887193DA99800F5DFCF /* 洋房按钮.png */,
-				873D2888193DA99800F5DFCF /* 高层按钮-点.png */,
-				873D2889193DA99800F5DFCF /* 高层按钮.png */,
+				873D2881193DA99800F5DFCF /* 别墅按钮123-点.PNG */,
+				873D2882193DA99800F5DFCF /* 别墅按钮123.PNG */,
+				873D2883193DA99800F5DFCF /* 商业按钮123-点.png */,
+				873D2884193DA99800F5DFCF /* 商业按钮123.png */,
+				873D2885193DA99800F5DFCF /* 底图123.png */,
+				873D2886193DA99800F5DFCF /* 洋房按钮123-点.png */,
+				873D2887193DA99800F5DFCF /* 洋房按钮123.png */,
+				873D2888193DA99800F5DFCF /* 高层按钮123-点.png */,
+				873D2889193DA99800F5DFCF /* 高层按钮123.png */,
 			);
 			path = "项目360";
 			sourceTree = "<group>";
@@ -443,7 +451,7 @@
 				873D289C193DA9A600F5DFCF /* 娱乐按钮.png */,
 				873D289D193DA9A600F5DFCF /* 学校.png */,
 				873D289E193DA9A600F5DFCF /* 学校按钮.png */,
-				873D289F193DA9A600F5DFCF /* 底图.PNG */,
+				873D289F193DA9A600F5DFCF /* 底图122.PNG */,
 				873D28A0193DA9A600F5DFCF /* 景点.png */,
 				873D28A1193DA9A600F5DFCF /* 景点按钮.png */,
 			);
@@ -634,7 +642,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873D28AD193DA9A600F5DFCF /* 底图.PNG in Resources */,
+				873D28AD193DA9A600F5DFCF /* 底图122.PNG in Resources */,
 				873D287E193DA98D00F5DFCF /* 园林8.PNG in Resources */,
 				873D2878193DA98D00F5DFCF /* 园林2.PNG in Resources */,
 				873D28C3193DA9AE00F5DFCF /* 小选择框.png in Resources */,
@@ -648,7 +656,7 @@
 				873D28AF193DA9A600F5DFCF /* 景点按钮.png in Resources */,
 				87F67A94193DB7EA006E5E01 /* HLMainView.xib in Resources */,
 				873D28E0193DA9B900F5DFCF /* 链接按钮-点.png in Resources */,
-				873D2892193DA99800F5DFCF /* 高层按钮.png in Resources */,
+				873D2892193DA99800F5DFCF /* 高层按钮123.png in Resources */,
 				873D28AC193DA9A600F5DFCF /* 学校按钮.png in Resources */,
 				873D28C5193DA9AE00F5DFCF /* 底图.PNG in Resources */,
 				0D3C315E193D762B00F707E5 /* 房贷计算器标-点.png in Resources */,
@@ -659,26 +667,26 @@
 				873D28AB193DA9A600F5DFCF /* 学校.png in Resources */,
 				873D28A9193DA9A600F5DFCF /* 娱乐.png in Resources */,
 				873D28F9193DA9C200F5DFCF /* A5.png in Resources */,
-				873D288E193DA99800F5DFCF /* 底图.png in Resources */,
+				873D288E193DA99800F5DFCF /* 底图123.png in Resources */,
 				873D28C8193DA9AE00F5DFCF /* 计算按钮-点.png in Resources */,
 				0D3C3161193D762B00F707E5 /* 集团标.png in Resources */,
 				873D28E5193DA9B900F5DFCF /* 项目按钮.png in Resources */,
 				873D28A2193DA9A600F5DFCF /* 交通.png in Resources */,
 				0D3C3163193D762B00F707E5 /* 项目标.png in Resources */,
 				873D28A7193DA9A600F5DFCF /* 商业按钮.png in Resources */,
-				873D288A193DA99800F5DFCF /* 别墅按钮-点.PNG in Resources */,
+				873D288A193DA99800F5DFCF /* 别墅按钮123-点.PNG in Resources */,
 				873D2903193DA9C200F5DFCF /* 底图.PNG in Resources */,
 				873D28A6193DA9A600F5DFCF /* 商业.png in Resources */,
 				873D28FB193DA9C200F5DFCF /* C1按钮.png in Resources */,
 				873D28E4193DA9B900F5DFCF /* 项目按钮-点.png in Resources */,
 				0D3C3162193D762B00F707E5 /* 项目标-点.png in Resources */,
 				0D3C315D193D762B00F707E5 /* 户型标.png in Resources */,
-				873D2890193DA99800F5DFCF /* 洋房按钮.png in Resources */,
+				873D2890193DA99800F5DFCF /* 洋房按钮123.png in Resources */,
 				873D287F193DA98D00F5DFCF /* 园林9.PNG in Resources */,
 				873D28FE193DA9C200F5DFCF /* 全景按钮-不用.png in Resources */,
 				873D2902193DA9C200F5DFCF /* 平面按钮.png in Resources */,
 				873D2900193DA9C200F5DFCF /* 右.PNG in Resources */,
-				873D288F193DA99800F5DFCF /* 洋房按钮-点.png in Resources */,
+				873D288F193DA99800F5DFCF /* 洋房按钮123-点.png in Resources */,
 				873D287A193DA98D00F5DFCF /* 园林4.PNG in Resources */,
 				873D28E3193DA9B900F5DFCF /* 集团按钮.png in Resources */,
 				873D28C6193DA9AE00F5DFCF /* 按揭年数选择框.png in Resources */,
@@ -688,6 +696,7 @@
 				0D3C3157193D762B00F707E5 /* 园林标.png in Resources */,
 				873D2905193DA9C200F5DFCF /* 计算器、按钮.png in Resources */,
 				873D28FA193DA9C200F5DFCF /* B5按钮.png in Resources */,
+				0D16CEE219404A6E005BFE1E /* QHProjectView.xib in Resources */,
 				873D28C0193DA9AE00F5DFCF /* 填写按钮-点.png in Resources */,
 				873D28DD193DA9B900F5DFCF /* 荣誉按钮-点.png in Resources */,
 				0D3C3154193D762B00F707E5 /* 区域标-点.png in Resources */,
@@ -696,7 +705,7 @@
 				873D290B193DADC200F5DFCF /* HLStartAnimView.xib in Resources */,
 				873D287C193DA98D00F5DFCF /* 园林6.PNG in Resources */,
 				873D2901193DA9C200F5DFCF /* 平面按钮-不用.png in Resources */,
-				873D2891193DA99800F5DFCF /* 高层按钮-点.png in Resources */,
+				873D2891193DA99800F5DFCF /* 高层按钮123-点.png in Resources */,
 				873D28F7193DA9C200F5DFCF /* 3D按钮-不用.png in Resources */,
 				873D28A8193DA9A600F5DFCF /* 地图.png in Resources */,
 				0D3C3158193D762B00F707E5 /* 图标.png in Resources */,
@@ -711,13 +720,13 @@
 				BA86A1C0193CB61900E74E1F /* Default.png in Resources */,
 				873D28CB193DA9AF00F5DFCF /* 贷款利率选择框.png in Resources */,
 				873D28A5193DA9A600F5DFCF /* 医院按钮.png in Resources */,
-				873D288B193DA99800F5DFCF /* 别墅按钮.PNG in Resources */,
+				873D288B193DA99800F5DFCF /* 别墅按钮123.PNG in Resources */,
 				BA86A1C2193CB61900E74E1F /* Default@2x.png in Resources */,
 				873D28AA193DA9A600F5DFCF /* 娱乐按钮.png in Resources */,
-				873D288C193DA99800F5DFCF /* 商业按钮-点.png in Resources */,
+				873D288C193DA99800F5DFCF /* 商业按钮123-点.png in Resources */,
 				0D16CEDD1940324C005BFE1E /* QHMapView.xib in Resources */,
 				873D28FD193DA9C200F5DFCF /* E3.png in Resources */,
-				873D288D193DA99800F5DFCF /* 商业按钮.png in Resources */,
+				873D288D193DA99800F5DFCF /* 商业按钮123.png in Resources */,
 				873D28F8193DA9C200F5DFCF /* 3D按钮.png in Resources */,
 				873D28A4193DA9A600F5DFCF /* 医院.png in Resources */,
 				873D28C7193DA9AE00F5DFCF /* 按揭选择框.png in Resources */,
@@ -753,6 +762,7 @@
 				BA86A1BE193CB61900E74E1F /* AppDelegate.m in Sources */,
 				873D285A193DA64000F5DFCF /* HLCustomOriginView.mm in Sources */,
 				0D16CEDB1940322E005BFE1E /* QHMapView.mm in Sources */,
+				0D16CEE019404A57005BFE1E /* QHProjectView.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5053" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="QHProjectView">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="gEa-mY-AwW">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="TJ0-MC-Htr">
+                            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </imageView>
+                        <button opaque="NO" tag="999" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aTI-Q0-i6F">
+                            <rect key="frame" x="0.0" y="54" width="92" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal" backgroundImage="返回按钮.png">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clickCloseBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="yVv-Mb-5hK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pkJ-AK-WX3" userLabel="Button - bieshu">
+                            <rect key="frame" x="92" y="54" width="100" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal" backgroundImage="别墅按钮123.PNG">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="别墅按钮123-点.PNG"/>
+                            <connections>
+                                <action selector="methodBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="dt5-us-GdG"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="A30-ft-X0L" userLabel="Button - yangfang">
+                            <rect key="frame" x="192" y="54" width="100" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal" backgroundImage="洋房按钮123.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="洋房按钮123-点.png"/>
+                            <connections>
+                                <action selector="methodBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="zkS-bd-PUB"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Mht-gg-xOm" userLabel="Button - gaoceng">
+                            <rect key="frame" x="292" y="54" width="100" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal" backgroundImage="高层按钮123.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="高层按钮123-点.png"/>
+                            <connections>
+                                <action selector="methodBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="3x8-R8-G3b"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="weP-ft-1Ob" userLabel="Button - shangye">
+                            <rect key="frame" x="392" y="54" width="100" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal" backgroundImage="商业按钮123.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="商业按钮123-点.png"/>
+                            <connections>
+                                <action selector="methodBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="f5T-8F-Lsl"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="btnBieShu" destination="pkJ-AK-WX3" id="84g-Ie-DPq"/>
+                <outlet property="btnGaoCeng" destination="Mht-gg-xOm" id="O6x-8G-sb9"/>
+                <outlet property="btnShangYe" destination="weP-ft-1Ob" id="Lc7-XS-EmC"/>
+                <outlet property="btnYangFang" destination="A30-ft-X0L" id="09a-gv-Fez"/>
+                <outlet property="igBg" destination="TJ0-MC-Htr" id="QaQ-kR-qNj"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="别墅按钮123-点.PNG" width="203" height="88"/>
+        <image name="别墅按钮123.PNG" width="203" height="88"/>
+        <image name="商业按钮123-点.png" width="204" height="88"/>
+        <image name="商业按钮123.png" width="204" height="88"/>
+        <image name="洋房按钮123-点.png" width="203" height="88"/>
+        <image name="洋房按钮123.png" width="203" height="88"/>
+        <image name="返回按钮.png" width="184" height="88"/>
+        <image name="高层按钮123-点.png" width="201" height="88"/>
+        <image name="高层按钮123.png" width="201" height="88"/>
+    </resources>
+</document>
