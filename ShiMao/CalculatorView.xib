@@ -11,7 +11,7 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="JRv-km-hGm">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="计算器_底图.png" id="JRv-km-hGm">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
@@ -294,6 +294,7 @@
         <image name="底图-文字.PNG" width="1229" height="1179"/>
         <image name="按揭年数选择框.png" width="236" height="34"/>
         <image name="按揭选择框.png" width="121" height="34"/>
+        <image name="计算器_底图.png" width="2048" height="1536"/>
         <image name="计算按钮-点.png" width="288" height="88"/>
         <image name="计算按钮.png" width="288" height="88"/>
         <image name="贷款利率选择框-短.png" width="132" height="34"/>
