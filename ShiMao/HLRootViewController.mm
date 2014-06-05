@@ -27,11 +27,12 @@
 {
     //创建模块父视图
 //    CGSize size = WINSIZE;
+    self.view.backgroundColor = [UIColor clearColor];
     UIView *view = [[UIView  alloc]initWithFrame:CGRectMake(0, 0, 1024  ,768)];
+    view.backgroundColor = [UIColor clearColor];
     [self.view addSubview:view];
     self.moduleParentView = view;
     [view release];
-    self.view.backgroundColor = [UIColor redColor];
     [ViewManager goStartAnimView];
     [super viewDidLoad];
     // Do any additional setup after loading the view.

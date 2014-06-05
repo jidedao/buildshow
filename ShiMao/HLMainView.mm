@@ -7,8 +7,12 @@
 //
 
 #import "HLMainView.h"
+<<<<<<< HEAD
 #import "QHMapView.h"
 
+=======
+#import "GroupIntroductionView.h"
+>>>>>>> 3f0871442d6470efd6dc382a82e18a90f7a4368d
 @implementation HLMainView
 - (void)dealloc
 {
@@ -36,6 +40,7 @@
 - (void)initView
 {
     [super initView];
+    self.backgroundColor = [UIColor clearColor];
     _posBtnArray = [[NSMutableArray alloc]init];
     _btnArray = [[NSMutableArray alloc]init];
     [_btnArray addObject:_groupIntroductBtn];
@@ -101,7 +106,7 @@
 }
 - (void)oneBtnAppearFinished:(UIButton *)finishedBtn
 {
-    int index = [_btnArray indexOfObject:finishedBtn];
+    int index = (int)[_btnArray indexOfObject:finishedBtn];
     if (index < [_btnArray count] - 1)
     {
         [self showBtnAppearAnimWithOneBtn:[_btnArray objectAtIndex:index + 1]];
@@ -115,7 +120,16 @@
 //点击集团介绍按钮
 - (IBAction)clickGroupIntroductBtn:(id)sender
 {
-    
+    GroupIntroductionView *view = [GroupIntroductionView createHLCustomView];
+    [self addSubview:view];
+    [UIView animateKeyframesWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
+        view.center = CGPointMake(512, 384);
+    } completion:^(BOOL finished) {
+        
+    }];
+    [view setWillRemoveBlock:^{
+        
+    }];
 }
 //点击计算器按钮
 - (IBAction)clickCalculatorViewBtn:(id)sender
