@@ -14,7 +14,7 @@
     void (^willRemoveBlock)();
     void (^clickCloseBlock)();
 }
-
+@property (nonatomic,assign)IBOutlet UIImageView        *bgImageView;
 - (void)setAppearAnimFinishedBlock:(void(^)())appearAnimFinishedBlock;
 - (void)setClickCloseBlock:(void(^)())clickCloseBlock_;
 - (void)setWillRemoveBlock:(void(^)())_willRemoveBlock;

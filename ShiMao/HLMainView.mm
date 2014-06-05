@@ -10,7 +10,7 @@
 #import "QHMapView.h"
 #import "GroupIntroductionView.h"
 #import "QHProjectView.h"
-
+#import "CalculatorView.h"
 @implementation HLMainView
 - (void)dealloc
 {
@@ -120,6 +120,7 @@
 {
     GroupIntroductionView *view = [GroupIntroductionView createHLCustomView];
     [self addSubview:view];
+    view.center = CGPointMake(view.center.x + WINSIZE_W/2, view.center.y);
     [UIView animateKeyframesWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
         view.center = CGPointMake(512, 384);
     } completion:^(BOOL finished) {
@@ -132,19 +133,30 @@
 //点击计算器按钮
 - (IBAction)clickCalculatorViewBtn:(id)sender
 {
-    
+    CalculatorView *view = [CalculatorView createHLCustomView];
+    [self addSubview:view];
+    view.center = CGPointMake(view.center.x + WINSIZE_W/2, view.center.y);
+    [UIView animateKeyframesWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
+        view.center = CGPointMake(512, 384);
+    } completion:^(BOOL finished) {
+        
+    }];
+    [view setWillRemoveBlock:^{
+        
+    }];
 }
 //点击区域按钮
 - (IBAction)clickAreaMapBtn:(id)sender
 {
-    QHMapView *mapview = [QHMapView createHLCustomView];
-    [self addSubview:mapview];
+    QHMapView *view = [QHMapView createHLCustomView];
+    view.center = CGPointMake(view.center.x + WINSIZE_W/2, view.center.y);
+    [self addSubview:view];
     [UIView animateKeyframesWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
-        mapview.center = CGPointMake(512, 384);
+        view.center = CGPointMake(512, 384);
     } completion:^(BOOL finished) {
         
     }];
-    [mapview setWillRemoveBlock:^{
+    [view setWillRemoveBlock:^{
 
     }];
     
@@ -167,14 +179,15 @@
 //点击项目按钮
 - (IBAction)clickProjectBtn:(id)sender
 {
-    QHProjectView *projectView = [QHProjectView createHLCustomView];
-    [self addSubview:projectView];
+    QHProjectView *view = [QHProjectView createHLCustomView];
+    [self addSubview:view];
+    view.center = CGPointMake(view.center.x + WINSIZE_W/2, view.center.y);
     [UIView animateKeyframesWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
-        projectView.center = CGPointMake(512, 384);
+        view.center = CGPointMake(512, 384);
     } completion:^(BOOL finished) {
         
     }];
-    [projectView setWillRemoveBlock:^{
+    [view setWillRemoveBlock:^{
         
     }];
 }

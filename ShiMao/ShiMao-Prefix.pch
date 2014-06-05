@@ -16,3 +16,4 @@
 #import "ApplicationConfig.h"
 #import "HLPublicUtilTool.h"
 #import  "ViewManager.h"
+#import "HLCustomImageHelper.h"
