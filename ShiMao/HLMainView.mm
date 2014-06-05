@@ -7,12 +7,9 @@
 //
 
 #import "HLMainView.h"
-<<<<<<< HEAD
 #import "QHMapView.h"
-
-=======
 #import "GroupIntroductionView.h"
->>>>>>> 3f0871442d6470efd6dc382a82e18a90f7a4368d
+
 @implementation HLMainView
 - (void)dealloc
 {
@@ -140,10 +137,16 @@
 - (IBAction)clickAreaMapBtn:(id)sender
 {
     QHMapView *mapview = [QHMapView createHLCustomView];
+    [self addSubview:mapview];
+    [UIView animateKeyframesWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
+        mapview.center = CGPointMake(512, 384);
+    } completion:^(BOOL finished) {
+        
+    }];
     [mapview setWillRemoveBlock:^{
 
     }];
-    [self addSubview:mapview];
+    
 }
 //点击园林按钮
 - (IBAction)clickGradenViewBtn:(id)sender
