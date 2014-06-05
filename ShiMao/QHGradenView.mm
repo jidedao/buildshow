@@ -35,7 +35,7 @@
     [super initView];
 
     int itemN = 9;
-    [scrollView setContentSize:CGSizeMake(WINSIZE.width*itemN, WINSIZE.height)];
+    [scrollView setContentSize:CGSizeMake(WINSIZE_W*itemN, WINSIZE_H)];
     [scrollView setPagingEnabled:YES];
     for(int i=1; i<itemN; i++)
     {
@@ -46,7 +46,7 @@
 -(void)addItemView:(int)n
 {
     NSString *str = [NSString stringWithFormat:@"园林%d.PNG",n];
-    UIImageView *igView = [[[UIImageView alloc] initWithFrame:CGRectMake((n-1)*WINSIZE.width, 0, WINSIZE.width, WINSIZE.height)] autorelease];
+    UIImageView *igView = [[[UIImageView alloc] initWithFrame:CGRectMake((n-1)*WINSIZE_W, 0, WINSIZE_W, WINSIZE_H)] autorelease];
     [igView setImage:[UIImage imageNamed:str]];
     [scrollView addSubview:igView];
 }
