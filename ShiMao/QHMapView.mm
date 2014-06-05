@@ -74,10 +74,15 @@
     
 }
 
--(void)methodBtn:(id)sender
+-(IBAction)methodBtn:(id)sender
 {
     UIButton *btn = (UIButton *)sender;
     int tag = btn.tag;
+    if(tag == 999)
+    {
+        [super clickCloseBtn:nil];
+        [self removeFromSuperview];
+    }
     if(tag == 0)
     {
         igJiaoTong.hidden = NO;

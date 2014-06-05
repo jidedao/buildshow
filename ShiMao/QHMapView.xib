@@ -126,6 +126,15 @@
                                 <action selector="methodBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="7WD-RV-gek"/>
                             </connections>
                         </button>
+                        <button opaque="NO" tag="999" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6wJ-tH-YJB">
+                            <rect key="frame" x="0.0" y="56" width="92" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal" backgroundImage="返回按钮.png">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </view>
@@ -157,5 +166,6 @@
         <image name="娱乐.png" width="1123" height="565"/>
         <image name="学校.png" width="715" height="583"/>
         <image name="景点.png" width="814" height="587"/>
+        <image name="返回按钮.png" width="184" height="88"/>
     </resources>
 </document>
