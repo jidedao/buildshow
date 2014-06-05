@@ -74,7 +74,7 @@
 		873D28C2193DA9AE00F5DFCF /* 小选择框-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28B4193DA9AE00F5DFCF /* 小选择框-点.png */; };
 		873D28C3193DA9AE00F5DFCF /* 小选择框.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28B5193DA9AE00F5DFCF /* 小选择框.png */; };
 		873D28C4193DA9AE00F5DFCF /* 底图-文字.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D28B6193DA9AE00F5DFCF /* 底图-文字.PNG */; };
-		873D28C5193DA9AE00F5DFCF /* 底图.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D28B7193DA9AE00F5DFCF /* 底图.PNG */; };
+		873D28C5193DA9AE00F5DFCF /* 计算器_底图.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28B7193DA9AE00F5DFCF /* 计算器_底图.png */; };
 		873D28C6193DA9AE00F5DFCF /* 按揭年数选择框.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28B8193DA9AE00F5DFCF /* 按揭年数选择框.png */; };
 		873D28C7193DA9AE00F5DFCF /* 按揭选择框.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28B9193DA9AE00F5DFCF /* 按揭选择框.png */; };
 		873D28C8193DA9AE00F5DFCF /* 计算按钮-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28BA193DA9AE00F5DFCF /* 计算按钮-点.png */; };
@@ -114,6 +114,9 @@
 		873D290B193DADC200F5DFCF /* HLStartAnimView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873D290A193DADC200F5DFCF /* HLStartAnimView.xib */; };
 		873D290E193DB00600F5DFCF /* ViewManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 873D290D193DB00600F5DFCF /* ViewManager.mm */; };
 		873D2910193DB25700F5DFCF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873D290F193DB25700F5DFCF /* MediaPlayer.framework */; };
+		87B31B02194058DB005B97A9 /* CalculatorView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 87B31B01194058DB005B97A9 /* CalculatorView.mm */; };
+		87B31B04194058F1005B97A9 /* CalculatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87B31B03194058F1005B97A9 /* CalculatorView.xib */; };
+		87B31B0719405A66005B97A9 /* HLCustomImageHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 87B31B0619405A66005B97A9 /* HLCustomImageHelper.mm */; };
 		87F67A92193DB7C1006E5E01 /* HLMainView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 87F67A91193DB7C1006E5E01 /* HLMainView.mm */; };
 		87F67A94193DB7EA006E5E01 /* HLMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87F67A93193DB7EA006E5E01 /* HLMainView.xib */; };
 		87F67A99193DC5D3006E5E01 /* IMG_0866.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 87F67A98193DC5D3006E5E01 /* IMG_0866.MOV */; };
@@ -205,7 +208,7 @@
 		873D28B4193DA9AE00F5DFCF /* 小选择框-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小选择框-点.png"; sourceTree = "<group>"; };
 		873D28B5193DA9AE00F5DFCF /* 小选择框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小选择框.png"; sourceTree = "<group>"; };
 		873D28B6193DA9AE00F5DFCF /* 底图-文字.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底图-文字.PNG"; sourceTree = "<group>"; };
-		873D28B7193DA9AE00F5DFCF /* 底图.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底图.PNG"; sourceTree = "<group>"; };
+		873D28B7193DA9AE00F5DFCF /* 计算器_底图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "计算器_底图.png"; sourceTree = "<group>"; };
 		873D28B8193DA9AE00F5DFCF /* 按揭年数选择框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按揭年数选择框.png"; sourceTree = "<group>"; };
 		873D28B9193DA9AE00F5DFCF /* 按揭选择框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按揭选择框.png"; sourceTree = "<group>"; };
 		873D28BA193DA9AE00F5DFCF /* 计算按钮-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "计算按钮-点.png"; sourceTree = "<group>"; };
@@ -247,6 +250,11 @@
 		873D290C193DB00600F5DFCF /* ViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewManager.h; sourceTree = "<group>"; };
 		873D290D193DB00600F5DFCF /* ViewManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewManager.mm; sourceTree = "<group>"; };
 		873D290F193DB25700F5DFCF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		87B31B00194058DB005B97A9 /* CalculatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorView.h; sourceTree = "<group>"; };
+		87B31B01194058DB005B97A9 /* CalculatorView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CalculatorView.mm; sourceTree = "<group>"; };
+		87B31B03194058F1005B97A9 /* CalculatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalculatorView.xib; sourceTree = "<group>"; };
+		87B31B0519405A66005B97A9 /* HLCustomImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCustomImageHelper.h; sourceTree = "<group>"; };
+		87B31B0619405A66005B97A9 /* HLCustomImageHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HLCustomImageHelper.mm; sourceTree = "<group>"; };
 		87F67A90193DB7C1006E5E01 /* HLMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMainView.h; sourceTree = "<group>"; };
 		87F67A91193DB7C1006E5E01 /* HLMainView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HLMainView.mm; sourceTree = "<group>"; };
 		87F67A93193DB7EA006E5E01 /* HLMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLMainView.xib; sourceTree = "<group>"; };
@@ -397,6 +405,9 @@
 		873D286A193DA8B100F5DFCF /* CalculatorView */ = {
 			isa = PBXGroup;
 			children = (
+				87B31B00194058DB005B97A9 /* CalculatorView.h */,
+				87B31B01194058DB005B97A9 /* CalculatorView.mm */,
+				87B31B03194058F1005B97A9 /* CalculatorView.xib */,
 			);
 			name = CalculatorView;
 			sourceTree = "<group>";
@@ -483,7 +494,7 @@
 				873D28B4193DA9AE00F5DFCF /* 小选择框-点.png */,
 				873D28B5193DA9AE00F5DFCF /* 小选择框.png */,
 				873D28B6193DA9AE00F5DFCF /* 底图-文字.PNG */,
-				873D28B7193DA9AE00F5DFCF /* 底图.PNG */,
+				873D28B7193DA9AE00F5DFCF /* 计算器_底图.png */,
 				873D28B8193DA9AE00F5DFCF /* 按揭年数选择框.png */,
 				873D28B9193DA9AE00F5DFCF /* 按揭选择框.png */,
 				873D28BA193DA9AE00F5DFCF /* 计算按钮-点.png */,
@@ -586,6 +597,8 @@
 				873D290D193DB00600F5DFCF /* ViewManager.mm */,
 				873D2858193DA64000F5DFCF /* HLCustomOriginView.h */,
 				873D2859193DA64000F5DFCF /* HLCustomOriginView.mm */,
+				87B31B0519405A66005B97A9 /* HLCustomImageHelper.h */,
+				87B31B0619405A66005B97A9 /* HLCustomImageHelper.mm */,
 				873D285B193DA64B00F5DFCF /* RootViewController */,
 				873D284A193D9F6500F5DFCF /* ViewClass */,
 				BA86A1B4193CB61900E74E1F /* Supporting Files */,
@@ -674,7 +687,7 @@
 				873D28E0193DA9B900F5DFCF /* 链接按钮-点.png in Resources */,
 				873D2892193DA99800F5DFCF /* 高层按钮123.png in Resources */,
 				873D28AC193DA9A600F5DFCF /* 学校按钮.png in Resources */,
-				873D28C5193DA9AE00F5DFCF /* 底图.PNG in Resources */,
+				873D28C5193DA9AE00F5DFCF /* 计算器_底图.png in Resources */,
 				0D3C315E193D762B00F707E5 /* 房贷计算器标-点.png in Resources */,
 				87F67A99193DC5D3006E5E01 /* IMG_0866.MOV in Resources */,
 				873D28DF193DA9B900F5DFCF /* 返回按钮.png in Resources */,
@@ -694,6 +707,7 @@
 				873D2903193DA9C200F5DFCF /* 底图.PNG in Resources */,
 				873D28A6193DA9A600F5DFCF /* 商业.png in Resources */,
 				873D28FB193DA9C200F5DFCF /* C1按钮.png in Resources */,
+				87B31B04194058F1005B97A9 /* CalculatorView.xib in Resources */,
 				873D28E4193DA9B900F5DFCF /* 项目按钮-点.png in Resources */,
 				0D3C3162193D762B00F707E5 /* 项目标-点.png in Resources */,
 				0D3C315D193D762B00F707E5 /* 户型标.png in Resources */,
@@ -775,12 +789,14 @@
 				87F67A92193DB7C1006E5E01 /* HLMainView.mm in Sources */,
 				873D284D193D9FA200F5DFCF /* HLRootViewController.mm in Sources */,
 				873D2909193DAD8500F5DFCF /* HLStartAnimView.mm in Sources */,
+				87B31B0719405A66005B97A9 /* HLCustomImageHelper.mm in Sources */,
 				873D290E193DB00600F5DFCF /* ViewManager.mm in Sources */,
 				873D2864193DA79800F5DFCF /* HLPublicUtilTool.mm in Sources */,
 				BA86A1BE193CB61900E74E1F /* AppDelegate.m in Sources */,
 				873D285A193DA64000F5DFCF /* HLCustomOriginView.mm in Sources */,
 				0D16CEEE1940711A005BFE1E /* QHHouseTypeView.mm in Sources */,
 				0D16CEDB1940322E005BFE1E /* QHMapView.mm in Sources */,
+				87B31B02194058DB005B97A9 /* CalculatorView.mm in Sources */,
 				0D16CEE51940549A005BFE1E /* QHGradenView.mm in Sources */,
 				0D16CEE019404A57005BFE1E /* QHProjectView.mm in Sources */,
 			);

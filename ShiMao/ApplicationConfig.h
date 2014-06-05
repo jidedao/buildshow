@@ -9,5 +9,6 @@
 #ifndef __ShiMao__ApplicationConfig__
 #define __ShiMao__ApplicationConfig__
 #endif /* defined(__ShiMao__ApplicationConfig__) */
-#define WINSIZE                     [[UIScreen mainScreen] bounds].size
+#define WINSIZE_W     1024
+#define WINSIZE_H       768
 #define kFileName_StartAnimVideo        @"IMG_0866.MOV"
