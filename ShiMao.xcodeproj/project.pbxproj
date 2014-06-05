@@ -78,7 +78,7 @@
 		873D28CC193DA9AF00F5DFCF /* 长选择框.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28BE193DA9AE00F5DFCF /* 长选择框.png */; };
 		873D28DA193DA9B900F5DFCF /* 业务按钮-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28CE193DA9B900F5DFCF /* 业务按钮-点.png */; };
 		873D28DB193DA9B900F5DFCF /* 业务按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28CF193DA9B900F5DFCF /* 业务按钮.png */; };
-		873D28DC193DA9B900F5DFCF /* 底图.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D28D0193DA9B900F5DFCF /* 底图.PNG */; };
+		873D28DC193DA9B900F5DFCF /* 集团介绍_底图.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28D0193DA9B900F5DFCF /* 集团介绍_底图.png */; };
 		873D28DD193DA9B900F5DFCF /* 荣誉按钮-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28D1193DA9B900F5DFCF /* 荣誉按钮-点.png */; };
 		873D28DE193DA9B900F5DFCF /* 荣誉按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28D2193DA9B900F5DFCF /* 荣誉按钮.png */; };
 		873D28DF193DA9B900F5DFCF /* 返回按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28D3193DA9B900F5DFCF /* 返回按钮.png */; };
@@ -200,7 +200,7 @@
 		873D28BE193DA9AE00F5DFCF /* 长选择框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "长选择框.png"; sourceTree = "<group>"; };
 		873D28CE193DA9B900F5DFCF /* 业务按钮-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "业务按钮-点.png"; sourceTree = "<group>"; };
 		873D28CF193DA9B900F5DFCF /* 业务按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "业务按钮.png"; sourceTree = "<group>"; };
-		873D28D0193DA9B900F5DFCF /* 底图.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底图.PNG"; sourceTree = "<group>"; };
+		873D28D0193DA9B900F5DFCF /* 集团介绍_底图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "集团介绍_底图.png"; sourceTree = "<group>"; };
 		873D28D1193DA9B900F5DFCF /* 荣誉按钮-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "荣誉按钮-点.png"; sourceTree = "<group>"; };
 		873D28D2193DA9B900F5DFCF /* 荣誉按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "荣誉按钮.png"; sourceTree = "<group>"; };
 		873D28D3193DA9B900F5DFCF /* 返回按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回按钮.png"; sourceTree = "<group>"; };
@@ -476,7 +476,7 @@
 			children = (
 				873D28CE193DA9B900F5DFCF /* 业务按钮-点.png */,
 				873D28CF193DA9B900F5DFCF /* 业务按钮.png */,
-				873D28D0193DA9B900F5DFCF /* 底图.PNG */,
+				873D28D0193DA9B900F5DFCF /* 集团介绍_底图.png */,
 				873D28D1193DA9B900F5DFCF /* 荣誉按钮-点.png */,
 				873D28D2193DA9B900F5DFCF /* 荣誉按钮.png */,
 				873D28D3193DA9B900F5DFCF /* 返回按钮.png */,
@@ -732,7 +732,7 @@
 				873D28FC193DA9C200F5DFCF /* D2按钮.png in Resources */,
 				873D28CC193DA9AF00F5DFCF /* 长选择框.png in Resources */,
 				BA86A1C4193CB61900E74E1F /* Default-568h@2x.png in Resources */,
-				873D28DC193DA9B900F5DFCF /* 底图.PNG in Resources */,
+				873D28DC193DA9B900F5DFCF /* 集团介绍_底图.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
