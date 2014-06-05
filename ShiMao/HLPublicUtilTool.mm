@@ -39,4 +39,15 @@
 //    }
     return nil;
 }
++(NSString*)ResourceFilePath:(NSString*)filename
+{
+    //对传来的文件名字符串处理下，只取最后文件名
+    NSString *fileName = [filename lastPathComponent];    
+	return [NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath], fileName];
+}
++ (UIImage *)imageNamed:(NSString *)name
+{
+    UIImage *image = [[[UIImage alloc]initWithContentsOfFile:[self pathWithFileName:name]] autorelease];
+    return image;
+}
 @end

@@ -13,4 +13,5 @@
 @class HLRootViewController;
 @interface HLPublicUtilTool : NSObject
 + (NSString *)pathWithFileName:(NSString *)fileName;
++ (UIImage *)imageNamed:(NSString *)name;
 @end

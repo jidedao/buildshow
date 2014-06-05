@@ -11,6 +11,6 @@
 @implementation UIImage(HLCustomImageHelper)
 + (UIImage *)customImageNamed:(NSString *)name
 {
-    return [SharedApi imageNamed:name];
+    return [HLPublicUtilTool imageNamed:name];
 }
 @end
