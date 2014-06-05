@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D3C3140193D751100F707E5 /* ios_development(3).cer in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C313E193D751100F707E5 /* ios_development(3).cer */; };
-		0D3C3141193D751100F707E5 /* qhcmler.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C313F193D751100F707E5 /* qhcmler.mobileprovision */; };
 		0D3C3154193D762B00F707E5 /* 区域标-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3144193D762B00F707E5 /* 区域标-点.png */; };
 		0D3C3155193D762B00F707E5 /* 区域标.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3145193D762B00F707E5 /* 区域标.png */; };
 		0D3C3156193D762B00F707E5 /* 园林标-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3146193D762B00F707E5 /* 园林标-点.png */; };
@@ -123,8 +121,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D3C313E193D751100F707E5 /* ios_development(3).cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ios_development(3).cer"; sourceTree = "<group>"; };
-		0D3C313F193D751100F707E5 /* qhcmler.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = qhcmler.mobileprovision; sourceTree = "<group>"; };
 		0D3C3144193D762B00F707E5 /* 区域标-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "区域标-点.png"; sourceTree = "<group>"; };
 		0D3C3145193D762B00F707E5 /* 区域标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "区域标.png"; sourceTree = "<group>"; };
 		0D3C3146193D762B00F707E5 /* 园林标-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林标-点.png"; sourceTree = "<group>"; };
@@ -521,8 +517,6 @@
 			isa = PBXGroup;
 			children = (
 				0D3C3142193D760600F707E5 /* resource */,
-				0D3C313E193D751100F707E5 /* ios_development(3).cer */,
-				0D3C313F193D751100F707E5 /* qhcmler.mobileprovision */,
 				BA86A1B3193CB61900E74E1F /* ShiMao */,
 				BA86A1AC193CB61900E74E1F /* Frameworks */,
 				BA86A1AB193CB61900E74E1F /* Products */,
@@ -651,7 +645,6 @@
 				873D28C5193DA9AE00F5DFCF /* 底图.PNG in Resources */,
 				0D3C315E193D762B00F707E5 /* 房贷计算器标-点.png in Resources */,
 				87F67A99193DC5D3006E5E01 /* IMG_0866.MOV in Resources */,
-				0D3C3141193D751100F707E5 /* qhcmler.mobileprovision in Resources */,
 				873D28DF193DA9B900F5DFCF /* 返回按钮.png in Resources */,
 				0D3C3160193D762B00F707E5 /* 集团标-点.png in Resources */,
 				0D3C315C193D762B00F707E5 /* 户型标-点.png in Resources */,
@@ -703,7 +696,6 @@
 				0D3C3155193D762B00F707E5 /* 区域标.png in Resources */,
 				873D28C9193DA9AE00F5DFCF /* 计算按钮.png in Resources */,
 				BA86A1B8193CB61900E74E1F /* InfoPlist.strings in Resources */,
-				0D3C3140193D751100F707E5 /* ios_development(3).cer in Resources */,
 				873D28C2193DA9AE00F5DFCF /* 小选择框-点.png in Resources */,
 				0D3C315A193D762B00F707E5 /* 宣传片标.png in Resources */,
 				873D28AE193DA9A600F5DFCF /* 景点.png in Resources */,
