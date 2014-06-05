@@ -37,7 +37,7 @@
 -(void)initView
 {
     [super initView];
-    [igBg setImage:[UIImage imageNamed:@"底图123.png"]];
+    [igBg setImage:[UIImage imageNamed:@"MAIN_底图.PNG"]];
     btnBieShu.tag = 1;
     btnShangYe.tag = 2;
     btnYangFang.tag = 3;
