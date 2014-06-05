@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1" customClass="HLMainView">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MAIN_底图.PNG" id="PjC-8k-vG3">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这是主界面" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="59h-q7-eV6">
+                    <rect key="frame" x="333" y="204" width="190" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Sau-o5-hMk" userLabel="Button-集团">
+                    <rect key="frame" x="861" y="0.0" width="163" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" backgroundImage="集团标.png">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="集团标-点.png"/>
+                    <connections>
+                        <action selector="clickGroupIntroductBtn:" destination="1" eventType="touchUpInside" id="X2t-lC-boT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FUe-Xz-HUY" userLabel="Button-区域">
+                    <rect key="frame" x="861" y="92" width="163" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" backgroundImage="区域标.png">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="区域标-点.png"/>
+                    <connections>
+                        <action selector="clickAreaMapBtn:" destination="1" eventType="touchUpInside" id="o6F-nZ-3EM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NjE-Xv-qMQ">
+                    <rect key="frame" x="861" y="182" width="163" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="项目" backgroundImage="项目标.png">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="项目标-点.png"/>
+                    <connections>
+                        <action selector="clickProjectBtn:" destination="1" eventType="touchUpInside" id="HCi-XL-9zS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="csg-GI-CaR" userLabel="Button-园林">
+                    <rect key="frame" x="861" y="272" width="163" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="园林标.png">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="园林标-点.png"/>
+                    <connections>
+                        <action selector="clickGradenViewBtn:" destination="1" eventType="touchUpInside" id="aiX-yH-Inh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="lQB-UI-INF" userLabel="Button-户  型">
+                    <rect key="frame" x="861" y="362" width="163" height="93"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="户型标.png">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="户型标-点.png"/>
+                    <connections>
+                        <action selector="clickHouseTypeViewBtn:" destination="1" eventType="touchUpInside" id="CsY-Vx-cmS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7EP-fd-c3D" userLabel="Button-宣传片">
+                    <rect key="frame" x="861" y="455" width="162" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="宣传片标.png">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="宣传片标-点.png"/>
+                    <connections>
+                        <action selector="clickPropagandaFilmBtn:" destination="1" eventType="touchUpInside" id="ycs-4P-Sie"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qdP-Z2-E3f">
+                    <rect key="frame" x="861" y="545" width="162" height="91"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="计算器" image="房贷计算器标.png">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="房贷计算器标-点.png"/>
+                    <connections>
+                        <action selector="clickCalculatorViewBtn:" destination="1" eventType="touchUpInside" id="RyF-eB-YeT"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="图标.png" id="Upa-qM-eB5">
+                    <rect key="frame" x="861" y="636" width="163" height="132"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.94901960780000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="areaMapBtn" destination="FUe-Xz-HUY" id="cdi-cQ-Eo1"/>
+                <outlet property="calculatorViewBtn" destination="qdP-Z2-E3f" id="5fH-dz-2oW"/>
+                <outlet property="gradenViewBtn" destination="csg-GI-CaR" id="izU-nu-08U"/>
+                <outlet property="groupIntroductBtn" destination="Sau-o5-hMk" id="mvY-Wx-Cob"/>
+                <outlet property="houseTypeBtn" destination="lQB-UI-INF" id="r9h-kg-akM"/>
+                <outlet property="projectBtn" destination="NjE-Xv-qMQ" id="6hu-WQ-QIb"/>
+                <outlet property="propagandaFilmBtn" destination="7EP-fd-c3D" id="ClJ-Sh-LlP"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="MAIN_底图.PNG" width="2048" height="1536"/>
+        <image name="区域标-点.png" width="326" height="181"/>
+        <image name="区域标.png" width="326" height="181"/>
+        <image name="园林标-点.png" width="326" height="178"/>
+        <image name="园林标.png" width="326" height="178"/>
+        <image name="图标.png" width="326" height="265"/>
+        <image name="宣传片标-点.png" width="326" height="177"/>
+        <image name="宣传片标.png" width="326" height="177"/>
+        <image name="户型标-点.png" width="326" height="186"/>
+        <image name="户型标.png" width="326" height="186"/>
+        <image name="房贷计算器标-点.png" width="326" height="183"/>
+        <image name="房贷计算器标.png" width="326" height="183"/>
+        <image name="集团标-点.png" width="326" height="181"/>
+        <image name="集团标.png" width="326" height="181"/>
+        <image name="项目标-点.png" width="326" height="181"/>
+        <image name="项目标.png" width="326" height="181"/>
+    </resources>
+</document>

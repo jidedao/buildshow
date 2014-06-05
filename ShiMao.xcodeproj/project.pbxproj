@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D3C3140193D751100F707E5 /* ios_development(3).cer in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C313E193D751100F707E5 /* ios_development(3).cer */; };
+		0D3C3141193D751100F707E5 /* qhcmler.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C313F193D751100F707E5 /* qhcmler.mobileprovision */; };
+		0D3C3154193D762B00F707E5 /* 区域标-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3144193D762B00F707E5 /* 区域标-点.png */; };
+		0D3C3155193D762B00F707E5 /* 区域标.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3145193D762B00F707E5 /* 区域标.png */; };
+		0D3C3156193D762B00F707E5 /* 园林标-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3146193D762B00F707E5 /* 园林标-点.png */; };
+		0D3C3157193D762B00F707E5 /* 园林标.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3147193D762B00F707E5 /* 园林标.png */; };
+		0D3C3158193D762B00F707E5 /* 图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3148193D762B00F707E5 /* 图标.png */; };
+		0D3C3159193D762B00F707E5 /* 宣传片标-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3149193D762B00F707E5 /* 宣传片标-点.png */; };
+		0D3C315A193D762B00F707E5 /* 宣传片标.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C314A193D762B00F707E5 /* 宣传片标.png */; };
+		0D3C315B193D762B00F707E5 /* MAIN_底图.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C314B193D762B00F707E5 /* MAIN_底图.PNG */; };
+		0D3C315C193D762B00F707E5 /* 户型标-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C314C193D762B00F707E5 /* 户型标-点.png */; };
+		0D3C315D193D762B00F707E5 /* 户型标.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C314D193D762B00F707E5 /* 户型标.png */; };
+		0D3C315E193D762B00F707E5 /* 房贷计算器标-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C314E193D762B00F707E5 /* 房贷计算器标-点.png */; };
+		0D3C315F193D762B00F707E5 /* 房贷计算器标.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C314F193D762B00F707E5 /* 房贷计算器标.png */; };
+		0D3C3160193D762B00F707E5 /* 集团标-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3150193D762B00F707E5 /* 集团标-点.png */; };
+		0D3C3161193D762B00F707E5 /* 集团标.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3151193D762B00F707E5 /* 集团标.png */; };
+		0D3C3162193D762B00F707E5 /* 项目标-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3152193D762B00F707E5 /* 项目标-点.png */; };
+		0D3C3163193D762B00F707E5 /* 项目标.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3153193D762B00F707E5 /* 项目标.png */; };
+		870EB873193ECD5700307C70 /* GroupIntroductionView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 870EB872193ECD5700307C70 /* GroupIntroductionView.mm */; };
+		870EB875193ECD6E00307C70 /* GroupIntroductionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 870EB874193ECD6E00307C70 /* GroupIntroductionView.xib */; };
+		873D284D193D9FA200F5DFCF /* HLRootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 873D284C193D9FA200F5DFCF /* HLRootViewController.mm */; };
+		873D285A193DA64000F5DFCF /* HLCustomOriginView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 873D2859193DA64000F5DFCF /* HLCustomOriginView.mm */; };
+		873D2864193DA79800F5DFCF /* HLPublicUtilTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 873D2863193DA79800F5DFCF /* HLPublicUtilTool.mm */; };
+		873D2877193DA98D00F5DFCF /* 园林1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D286E193DA98D00F5DFCF /* 园林1.PNG */; };
+		873D2878193DA98D00F5DFCF /* 园林2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D286F193DA98D00F5DFCF /* 园林2.PNG */; };
+		873D2879193DA98D00F5DFCF /* 园林3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D2870193DA98D00F5DFCF /* 园林3.PNG */; };
+		873D287A193DA98D00F5DFCF /* 园林4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D2871193DA98D00F5DFCF /* 园林4.PNG */; };
+		873D287B193DA98D00F5DFCF /* 园林5.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D2872193DA98D00F5DFCF /* 园林5.PNG */; };
+		873D287C193DA98D00F5DFCF /* 园林6.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D2873193DA98D00F5DFCF /* 园林6.PNG */; };
+		873D287D193DA98D00F5DFCF /* 园林7.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D2874193DA98D00F5DFCF /* 园林7.PNG */; };
+		873D287E193DA98D00F5DFCF /* 园林8.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D2875193DA98D00F5DFCF /* 园林8.PNG */; };
+		873D287F193DA98D00F5DFCF /* 园林9.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D2876193DA98D00F5DFCF /* 园林9.PNG */; };
+		873D288A193DA99800F5DFCF /* 别墅按钮-点.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D2881193DA99800F5DFCF /* 别墅按钮-点.PNG */; };
+		873D288B193DA99800F5DFCF /* 别墅按钮.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D2882193DA99800F5DFCF /* 别墅按钮.PNG */; };
+		873D288C193DA99800F5DFCF /* 商业按钮-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2883193DA99800F5DFCF /* 商业按钮-点.png */; };
+		873D288D193DA99800F5DFCF /* 商业按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2884193DA99800F5DFCF /* 商业按钮.png */; };
+		873D288E193DA99800F5DFCF /* 底图.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2885193DA99800F5DFCF /* 底图.png */; };
+		873D288F193DA99800F5DFCF /* 洋房按钮-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2886193DA99800F5DFCF /* 洋房按钮-点.png */; };
+		873D2890193DA99800F5DFCF /* 洋房按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2887193DA99800F5DFCF /* 洋房按钮.png */; };
+		873D2891193DA99800F5DFCF /* 高层按钮-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2888193DA99800F5DFCF /* 高层按钮-点.png */; };
+		873D2892193DA99800F5DFCF /* 高层按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2889193DA99800F5DFCF /* 高层按钮.png */; };
+		873D28A2193DA9A600F5DFCF /* 交通.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2894193DA9A600F5DFCF /* 交通.png */; };
+		873D28A3193DA9A600F5DFCF /* 交通按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2895193DA9A600F5DFCF /* 交通按钮.png */; };
+		873D28A4193DA9A600F5DFCF /* 医院.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2896193DA9A600F5DFCF /* 医院.png */; };
+		873D28A5193DA9A600F5DFCF /* 医院按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2897193DA9A600F5DFCF /* 医院按钮.png */; };
+		873D28A6193DA9A600F5DFCF /* 商业.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2898193DA9A600F5DFCF /* 商业.png */; };
+		873D28A7193DA9A600F5DFCF /* 商业按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D2899193DA9A600F5DFCF /* 商业按钮.png */; };
+		873D28A8193DA9A600F5DFCF /* 地图.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D289A193DA9A600F5DFCF /* 地图.png */; };
+		873D28A9193DA9A600F5DFCF /* 娱乐.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D289B193DA9A600F5DFCF /* 娱乐.png */; };
+		873D28AA193DA9A600F5DFCF /* 娱乐按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D289C193DA9A600F5DFCF /* 娱乐按钮.png */; };
+		873D28AB193DA9A600F5DFCF /* 学校.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D289D193DA9A600F5DFCF /* 学校.png */; };
+		873D28AC193DA9A600F5DFCF /* 学校按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D289E193DA9A600F5DFCF /* 学校按钮.png */; };
+		873D28AD193DA9A600F5DFCF /* 底图.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D289F193DA9A600F5DFCF /* 底图.PNG */; };
+		873D28AE193DA9A600F5DFCF /* 景点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28A0193DA9A600F5DFCF /* 景点.png */; };
+		873D28AF193DA9A600F5DFCF /* 景点按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28A1193DA9A600F5DFCF /* 景点按钮.png */; };
+		873D28BF193DA9AE00F5DFCF /* 下拉菜单.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28B1193DA9AE00F5DFCF /* 下拉菜单.png */; };
+		873D28C0193DA9AE00F5DFCF /* 填写按钮-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28B2193DA9AE00F5DFCF /* 填写按钮-点.png */; };
+		873D28C1193DA9AE00F5DFCF /* 填写按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28B3193DA9AE00F5DFCF /* 填写按钮.png */; };
+		873D28C2193DA9AE00F5DFCF /* 小选择框-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28B4193DA9AE00F5DFCF /* 小选择框-点.png */; };
+		873D28C3193DA9AE00F5DFCF /* 小选择框.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28B5193DA9AE00F5DFCF /* 小选择框.png */; };
+		873D28C4193DA9AE00F5DFCF /* 底图-文字.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D28B6193DA9AE00F5DFCF /* 底图-文字.PNG */; };
+		873D28C5193DA9AE00F5DFCF /* 底图.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D28B7193DA9AE00F5DFCF /* 底图.PNG */; };
+		873D28C6193DA9AE00F5DFCF /* 按揭年数选择框.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28B8193DA9AE00F5DFCF /* 按揭年数选择框.png */; };
+		873D28C7193DA9AE00F5DFCF /* 按揭选择框.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28B9193DA9AE00F5DFCF /* 按揭选择框.png */; };
+		873D28C8193DA9AE00F5DFCF /* 计算按钮-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28BA193DA9AE00F5DFCF /* 计算按钮-点.png */; };
+		873D28C9193DA9AE00F5DFCF /* 计算按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28BB193DA9AE00F5DFCF /* 计算按钮.png */; };
+		873D28CA193DA9AE00F5DFCF /* 贷款利率选择框-短.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28BC193DA9AE00F5DFCF /* 贷款利率选择框-短.png */; };
+		873D28CB193DA9AF00F5DFCF /* 贷款利率选择框.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28BD193DA9AE00F5DFCF /* 贷款利率选择框.png */; };
+		873D28CC193DA9AF00F5DFCF /* 长选择框.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28BE193DA9AE00F5DFCF /* 长选择框.png */; };
+		873D28DA193DA9B900F5DFCF /* 业务按钮-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28CE193DA9B900F5DFCF /* 业务按钮-点.png */; };
+		873D28DB193DA9B900F5DFCF /* 业务按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28CF193DA9B900F5DFCF /* 业务按钮.png */; };
+		873D28DC193DA9B900F5DFCF /* 底图.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D28D0193DA9B900F5DFCF /* 底图.PNG */; };
+		873D28DD193DA9B900F5DFCF /* 荣誉按钮-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28D1193DA9B900F5DFCF /* 荣誉按钮-点.png */; };
+		873D28DE193DA9B900F5DFCF /* 荣誉按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28D2193DA9B900F5DFCF /* 荣誉按钮.png */; };
+		873D28DF193DA9B900F5DFCF /* 返回按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28D3193DA9B900F5DFCF /* 返回按钮.png */; };
+		873D28E0193DA9B900F5DFCF /* 链接按钮-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28D4193DA9B900F5DFCF /* 链接按钮-点.png */; };
+		873D28E1193DA9B900F5DFCF /* 链接按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28D5193DA9B900F5DFCF /* 链接按钮.png */; };
+		873D28E2193DA9B900F5DFCF /* 集团按钮-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28D6193DA9B900F5DFCF /* 集团按钮-点.png */; };
+		873D28E3193DA9B900F5DFCF /* 集团按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28D7193DA9B900F5DFCF /* 集团按钮.png */; };
+		873D28E4193DA9B900F5DFCF /* 项目按钮-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28D8193DA9B900F5DFCF /* 项目按钮-点.png */; };
+		873D28E5193DA9B900F5DFCF /* 项目按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28D9193DA9B900F5DFCF /* 项目按钮.png */; };
+		873D28F7193DA9C200F5DFCF /* 3D按钮-不用.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28E7193DA9C200F5DFCF /* 3D按钮-不用.png */; };
+		873D28F8193DA9C200F5DFCF /* 3D按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28E8193DA9C200F5DFCF /* 3D按钮.png */; };
+		873D28F9193DA9C200F5DFCF /* A5.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28E9193DA9C200F5DFCF /* A5.png */; };
+		873D28FA193DA9C200F5DFCF /* B5按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28EA193DA9C200F5DFCF /* B5按钮.png */; };
+		873D28FB193DA9C200F5DFCF /* C1按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28EB193DA9C200F5DFCF /* C1按钮.png */; };
+		873D28FC193DA9C200F5DFCF /* D2按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28EC193DA9C200F5DFCF /* D2按钮.png */; };
+		873D28FD193DA9C200F5DFCF /* E3.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28ED193DA9C200F5DFCF /* E3.png */; };
+		873D28FE193DA9C200F5DFCF /* 全景按钮-不用.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28EE193DA9C200F5DFCF /* 全景按钮-不用.png */; };
+		873D28FF193DA9C200F5DFCF /* 全景按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28EF193DA9C200F5DFCF /* 全景按钮.png */; };
+		873D2900193DA9C200F5DFCF /* 右.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D28F0193DA9C200F5DFCF /* 右.PNG */; };
+		873D2901193DA9C200F5DFCF /* 平面按钮-不用.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28F1193DA9C200F5DFCF /* 平面按钮-不用.png */; };
+		873D2902193DA9C200F5DFCF /* 平面按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28F2193DA9C200F5DFCF /* 平面按钮.png */; };
+		873D2903193DA9C200F5DFCF /* 底图.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D28F3193DA9C200F5DFCF /* 底图.PNG */; };
+		873D2904193DA9C200F5DFCF /* 底图1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 873D28F4193DA9C200F5DFCF /* 底图1.PNG */; };
+		873D2905193DA9C200F5DFCF /* 计算器、按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28F5193DA9C200F5DFCF /* 计算器、按钮.png */; };
+		873D2906193DA9C200F5DFCF /* 计算器按钮-不用.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D28F6193DA9C200F5DFCF /* 计算器按钮-不用.png */; };
+		873D2909193DAD8500F5DFCF /* HLStartAnimView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 873D2908193DAD8500F5DFCF /* HLStartAnimView.mm */; };
+		873D290B193DADC200F5DFCF /* HLStartAnimView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873D290A193DADC200F5DFCF /* HLStartAnimView.xib */; };
+		873D290E193DB00600F5DFCF /* ViewManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 873D290D193DB00600F5DFCF /* ViewManager.mm */; };
+		873D2910193DB25700F5DFCF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873D290F193DB25700F5DFCF /* MediaPlayer.framework */; };
+		87F67A92193DB7C1006E5E01 /* HLMainView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 87F67A91193DB7C1006E5E01 /* HLMainView.mm */; };
+		87F67A94193DB7EA006E5E01 /* HLMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87F67A93193DB7EA006E5E01 /* HLMainView.xib */; };
+		87F67A99193DC5D3006E5E01 /* IMG_0866.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 87F67A98193DC5D3006E5E01 /* IMG_0866.MOV */; };
+		BA86A1AE193CB61900E74E1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA86A1AD193CB61900E74E1F /* UIKit.framework */; };
+		BA86A1B0193CB61900E74E1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA86A1AF193CB61900E74E1F /* Foundation.framework */; };
+		BA86A1B2193CB61900E74E1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA86A1B1193CB61900E74E1F /* CoreGraphics.framework */; };
+		BA86A1B8193CB61900E74E1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA86A1B6193CB61900E74E1F /* InfoPlist.strings */; };
+		BA86A1BA193CB61900E74E1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA86A1B9193CB61900E74E1F /* main.m */; };
+		BA86A1BE193CB61900E74E1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA86A1BD193CB61900E74E1F /* AppDelegate.m */; };
+		BA86A1C0193CB61900E74E1F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BA86A1BF193CB61900E74E1F /* Default.png */; };
+		BA86A1C2193CB61900E74E1F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA86A1C1193CB61900E74E1F /* Default@2x.png */; };
+		BA86A1C4193CB61900E74E1F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA86A1C3193CB61900E74E1F /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D3C313E193D751100F707E5 /* ios_development(3).cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ios_development(3).cer"; sourceTree = "<group>"; };
+		0D3C313F193D751100F707E5 /* qhcmler.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = qhcmler.mobileprovision; sourceTree = "<group>"; };
+		0D3C3144193D762B00F707E5 /* 区域标-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "区域标-点.png"; sourceTree = "<group>"; };
+		0D3C3145193D762B00F707E5 /* 区域标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "区域标.png"; sourceTree = "<group>"; };
+		0D3C3146193D762B00F707E5 /* 园林标-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林标-点.png"; sourceTree = "<group>"; };
+		0D3C3147193D762B00F707E5 /* 园林标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林标.png"; sourceTree = "<group>"; };
+		0D3C3148193D762B00F707E5 /* 图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标.png"; sourceTree = "<group>"; };
+		0D3C3149193D762B00F707E5 /* 宣传片标-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "宣传片标-点.png"; sourceTree = "<group>"; };
+		0D3C314A193D762B00F707E5 /* 宣传片标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "宣传片标.png"; sourceTree = "<group>"; };
+		0D3C314B193D762B00F707E5 /* MAIN_底图.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MAIN_底图.PNG"; sourceTree = "<group>"; };
+		0D3C314C193D762B00F707E5 /* 户型标-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "户型标-点.png"; sourceTree = "<group>"; };
+		0D3C314D193D762B00F707E5 /* 户型标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "户型标.png"; sourceTree = "<group>"; };
+		0D3C314E193D762B00F707E5 /* 房贷计算器标-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "房贷计算器标-点.png"; sourceTree = "<group>"; };
+		0D3C314F193D762B00F707E5 /* 房贷计算器标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "房贷计算器标.png"; sourceTree = "<group>"; };
+		0D3C3150193D762B00F707E5 /* 集团标-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "集团标-点.png"; sourceTree = "<group>"; };
+		0D3C3151193D762B00F707E5 /* 集团标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "集团标.png"; sourceTree = "<group>"; };
+		0D3C3152193D762B00F707E5 /* 项目标-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "项目标-点.png"; sourceTree = "<group>"; };
+		0D3C3153193D762B00F707E5 /* 项目标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "项目标.png"; sourceTree = "<group>"; };
+		870EB871193ECD5700307C70 /* GroupIntroductionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupIntroductionView.h; sourceTree = "<group>"; };
+		870EB872193ECD5700307C70 /* GroupIntroductionView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GroupIntroductionView.mm; sourceTree = "<group>"; };
+		870EB874193ECD6E00307C70 /* GroupIntroductionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupIntroductionView.xib; sourceTree = "<group>"; };
+		873D284B193D9FA200F5DFCF /* HLRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLRootViewController.h; sourceTree = "<group>"; };
+		873D284C193D9FA200F5DFCF /* HLRootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HLRootViewController.mm; sourceTree = "<group>"; };
+		873D2858193DA64000F5DFCF /* HLCustomOriginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCustomOriginView.h; sourceTree = "<group>"; };
+		873D2859193DA64000F5DFCF /* HLCustomOriginView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HLCustomOriginView.mm; sourceTree = "<group>"; };
+		873D285D193DA6FE00F5DFCF /* ApplicationConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationConfig.h; sourceTree = "<group>"; };
+		873D2862193DA79800F5DFCF /* HLPublicUtilTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPublicUtilTool.h; sourceTree = "<group>"; };
+		873D2863193DA79800F5DFCF /* HLPublicUtilTool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HLPublicUtilTool.mm; sourceTree = "<group>"; };
+		873D286E193DA98D00F5DFCF /* 园林1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林1.PNG"; sourceTree = "<group>"; };
+		873D286F193DA98D00F5DFCF /* 园林2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林2.PNG"; sourceTree = "<group>"; };
+		873D2870193DA98D00F5DFCF /* 园林3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林3.PNG"; sourceTree = "<group>"; };
+		873D2871193DA98D00F5DFCF /* 园林4.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林4.PNG"; sourceTree = "<group>"; };
+		873D2872193DA98D00F5DFCF /* 园林5.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林5.PNG"; sourceTree = "<group>"; };
+		873D2873193DA98D00F5DFCF /* 园林6.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林6.PNG"; sourceTree = "<group>"; };
+		873D2874193DA98D00F5DFCF /* 园林7.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林7.PNG"; sourceTree = "<group>"; };
+		873D2875193DA98D00F5DFCF /* 园林8.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林8.PNG"; sourceTree = "<group>"; };
+		873D2876193DA98D00F5DFCF /* 园林9.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林9.PNG"; sourceTree = "<group>"; };
+		873D2881193DA99800F5DFCF /* 别墅按钮-点.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "别墅按钮-点.PNG"; sourceTree = "<group>"; };
+		873D2882193DA99800F5DFCF /* 别墅按钮.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "别墅按钮.PNG"; sourceTree = "<group>"; };
+		873D2883193DA99800F5DFCF /* 商业按钮-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "商业按钮-点.png"; sourceTree = "<group>"; };
+		873D2884193DA99800F5DFCF /* 商业按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "商业按钮.png"; sourceTree = "<group>"; };
+		873D2885193DA99800F5DFCF /* 底图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底图.png"; sourceTree = "<group>"; };
+		873D2886193DA99800F5DFCF /* 洋房按钮-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "洋房按钮-点.png"; sourceTree = "<group>"; };
+		873D2887193DA99800F5DFCF /* 洋房按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "洋房按钮.png"; sourceTree = "<group>"; };
+		873D2888193DA99800F5DFCF /* 高层按钮-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高层按钮-点.png"; sourceTree = "<group>"; };
+		873D2889193DA99800F5DFCF /* 高层按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高层按钮.png"; sourceTree = "<group>"; };
+		873D2894193DA9A600F5DFCF /* 交通.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "交通.png"; sourceTree = "<group>"; };
+		873D2895193DA9A600F5DFCF /* 交通按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "交通按钮.png"; sourceTree = "<group>"; };
+		873D2896193DA9A600F5DFCF /* 医院.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "医院.png"; sourceTree = "<group>"; };
+		873D2897193DA9A600F5DFCF /* 医院按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "医院按钮.png"; sourceTree = "<group>"; };
+		873D2898193DA9A600F5DFCF /* 商业.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "商业.png"; sourceTree = "<group>"; };
+		873D2899193DA9A600F5DFCF /* 商业按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "商业按钮.png"; sourceTree = "<group>"; };
+		873D289A193DA9A600F5DFCF /* 地图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地图.png"; sourceTree = "<group>"; };
+		873D289B193DA9A600F5DFCF /* 娱乐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "娱乐.png"; sourceTree = "<group>"; };
+		873D289C193DA9A600F5DFCF /* 娱乐按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "娱乐按钮.png"; sourceTree = "<group>"; };
+		873D289D193DA9A600F5DFCF /* 学校.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "学校.png"; sourceTree = "<group>"; };
+		873D289E193DA9A600F5DFCF /* 学校按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "学校按钮.png"; sourceTree = "<group>"; };
+		873D289F193DA9A600F5DFCF /* 底图.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底图.PNG"; sourceTree = "<group>"; };
+		873D28A0193DA9A600F5DFCF /* 景点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "景点.png"; sourceTree = "<group>"; };
+		873D28A1193DA9A600F5DFCF /* 景点按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "景点按钮.png"; sourceTree = "<group>"; };
+		873D28B1193DA9AE00F5DFCF /* 下拉菜单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉菜单.png"; sourceTree = "<group>"; };
+		873D28B2193DA9AE00F5DFCF /* 填写按钮-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "填写按钮-点.png"; sourceTree = "<group>"; };
+		873D28B3193DA9AE00F5DFCF /* 填写按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "填写按钮.png"; sourceTree = "<group>"; };
+		873D28B4193DA9AE00F5DFCF /* 小选择框-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小选择框-点.png"; sourceTree = "<group>"; };
+		873D28B5193DA9AE00F5DFCF /* 小选择框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小选择框.png"; sourceTree = "<group>"; };
+		873D28B6193DA9AE00F5DFCF /* 底图-文字.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底图-文字.PNG"; sourceTree = "<group>"; };
+		873D28B7193DA9AE00F5DFCF /* 底图.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底图.PNG"; sourceTree = "<group>"; };
+		873D28B8193DA9AE00F5DFCF /* 按揭年数选择框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按揭年数选择框.png"; sourceTree = "<group>"; };
+		873D28B9193DA9AE00F5DFCF /* 按揭选择框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按揭选择框.png"; sourceTree = "<group>"; };
+		873D28BA193DA9AE00F5DFCF /* 计算按钮-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "计算按钮-点.png"; sourceTree = "<group>"; };
+		873D28BB193DA9AE00F5DFCF /* 计算按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "计算按钮.png"; sourceTree = "<group>"; };
+		873D28BC193DA9AE00F5DFCF /* 贷款利率选择框-短.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "贷款利率选择框-短.png"; sourceTree = "<group>"; };
+		873D28BD193DA9AE00F5DFCF /* 贷款利率选择框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "贷款利率选择框.png"; sourceTree = "<group>"; };
+		873D28BE193DA9AE00F5DFCF /* 长选择框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "长选择框.png"; sourceTree = "<group>"; };
+		873D28CE193DA9B900F5DFCF /* 业务按钮-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "业务按钮-点.png"; sourceTree = "<group>"; };
+		873D28CF193DA9B900F5DFCF /* 业务按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "业务按钮.png"; sourceTree = "<group>"; };
+		873D28D0193DA9B900F5DFCF /* 底图.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底图.PNG"; sourceTree = "<group>"; };
+		873D28D1193DA9B900F5DFCF /* 荣誉按钮-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "荣誉按钮-点.png"; sourceTree = "<group>"; };
+		873D28D2193DA9B900F5DFCF /* 荣誉按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "荣誉按钮.png"; sourceTree = "<group>"; };
+		873D28D3193DA9B900F5DFCF /* 返回按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回按钮.png"; sourceTree = "<group>"; };
+		873D28D4193DA9B900F5DFCF /* 链接按钮-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "链接按钮-点.png"; sourceTree = "<group>"; };
+		873D28D5193DA9B900F5DFCF /* 链接按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "链接按钮.png"; sourceTree = "<group>"; };
+		873D28D6193DA9B900F5DFCF /* 集团按钮-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "集团按钮-点.png"; sourceTree = "<group>"; };
+		873D28D7193DA9B900F5DFCF /* 集团按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "集团按钮.png"; sourceTree = "<group>"; };
+		873D28D8193DA9B900F5DFCF /* 项目按钮-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "项目按钮-点.png"; sourceTree = "<group>"; };
+		873D28D9193DA9B900F5DFCF /* 项目按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "项目按钮.png"; sourceTree = "<group>"; };
+		873D28E7193DA9C200F5DFCF /* 3D按钮-不用.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3D按钮-不用.png"; sourceTree = "<group>"; };
+		873D28E8193DA9C200F5DFCF /* 3D按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3D按钮.png"; sourceTree = "<group>"; };
+		873D28E9193DA9C200F5DFCF /* A5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A5.png; sourceTree = "<group>"; };
+		873D28EA193DA9C200F5DFCF /* B5按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B5按钮.png"; sourceTree = "<group>"; };
+		873D28EB193DA9C200F5DFCF /* C1按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C1按钮.png"; sourceTree = "<group>"; };
+		873D28EC193DA9C200F5DFCF /* D2按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D2按钮.png"; sourceTree = "<group>"; };
+		873D28ED193DA9C200F5DFCF /* E3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E3.png; sourceTree = "<group>"; };
+		873D28EE193DA9C200F5DFCF /* 全景按钮-不用.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "全景按钮-不用.png"; sourceTree = "<group>"; };
+		873D28EF193DA9C200F5DFCF /* 全景按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "全景按钮.png"; sourceTree = "<group>"; };
+		873D28F0193DA9C200F5DFCF /* 右.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "右.PNG"; sourceTree = "<group>"; };
+		873D28F1193DA9C200F5DFCF /* 平面按钮-不用.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "平面按钮-不用.png"; sourceTree = "<group>"; };
+		873D28F2193DA9C200F5DFCF /* 平面按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "平面按钮.png"; sourceTree = "<group>"; };
+		873D28F3193DA9C200F5DFCF /* 底图.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底图.PNG"; sourceTree = "<group>"; };
+		873D28F4193DA9C200F5DFCF /* 底图1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底图1.PNG"; sourceTree = "<group>"; };
+		873D28F5193DA9C200F5DFCF /* 计算器、按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "计算器、按钮.png"; sourceTree = "<group>"; };
+		873D28F6193DA9C200F5DFCF /* 计算器按钮-不用.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "计算器按钮-不用.png"; sourceTree = "<group>"; };
+		873D2907193DAD8500F5DFCF /* HLStartAnimView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLStartAnimView.h; sourceTree = "<group>"; };
+		873D2908193DAD8500F5DFCF /* HLStartAnimView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HLStartAnimView.mm; sourceTree = "<group>"; };
+		873D290A193DADC200F5DFCF /* HLStartAnimView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLStartAnimView.xib; sourceTree = "<group>"; };
+		873D290C193DB00600F5DFCF /* ViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewManager.h; sourceTree = "<group>"; };
+		873D290D193DB00600F5DFCF /* ViewManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewManager.mm; sourceTree = "<group>"; };
+		873D290F193DB25700F5DFCF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		87F67A90193DB7C1006E5E01 /* HLMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMainView.h; sourceTree = "<group>"; };
+		87F67A91193DB7C1006E5E01 /* HLMainView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HLMainView.mm; sourceTree = "<group>"; };
+		87F67A93193DB7EA006E5E01 /* HLMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLMainView.xib; sourceTree = "<group>"; };
+		87F67A98193DC5D3006E5E01 /* IMG_0866.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_0866.MOV; sourceTree = "<group>"; };
+		BA86A1AA193CB61900E74E1F /* ShiMao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShiMao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA86A1AD193CB61900E74E1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA86A1AF193CB61900E74E1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA86A1B1193CB61900E74E1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA86A1B5193CB61900E74E1F /* ShiMao-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShiMao-Info.plist"; sourceTree = "<group>"; };
+		BA86A1B7193CB61900E74E1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA86A1B9193CB61900E74E1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA86A1BB193CB61900E74E1F /* ShiMao-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShiMao-Prefix.pch"; sourceTree = "<group>"; };
+		BA86A1BC193CB61900E74E1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA86A1BD193CB61900E74E1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA86A1BF193CB61900E74E1F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BA86A1C1193CB61900E74E1F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BA86A1C3193CB61900E74E1F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA86A1A7193CB61800E74E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873D2910193DB25700F5DFCF /* MediaPlayer.framework in Frameworks */,
+				BA86A1AE193CB61900E74E1F /* UIKit.framework in Frameworks */,
+				BA86A1B0193CB61900E74E1F /* Foundation.framework in Frameworks */,
+				BA86A1B2193CB61900E74E1F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D3C3142193D760600F707E5 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				87F67A95193DBB7C006E5E01 /* startVedio */,
+				873D28E6193DA9C200F5DFCF /* 户型 */,
+				873D28CD193DA9B900F5DFCF /* 集团介绍 */,
+				873D28B0193DA9AE00F5DFCF /* 计算器 */,
+				873D2893193DA9A600F5DFCF /* 区域 */,
+				873D2880193DA99800F5DFCF /* 项目360 */,
+				873D286D193DA98D00F5DFCF /* 园林 */,
+				0D3C3143193D762B00F707E5 /* 主页 */,
+			);
+			name = resource;
+			path = ShiMao/resource;
+			sourceTree = "<group>";
+		};
+		0D3C3143193D762B00F707E5 /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				0D3C3144193D762B00F707E5 /* 区域标-点.png */,
+				0D3C3145193D762B00F707E5 /* 区域标.png */,
+				0D3C3146193D762B00F707E5 /* 园林标-点.png */,
+				0D3C3147193D762B00F707E5 /* 园林标.png */,
+				0D3C3148193D762B00F707E5 /* 图标.png */,
+				0D3C3149193D762B00F707E5 /* 宣传片标-点.png */,
+				0D3C314A193D762B00F707E5 /* 宣传片标.png */,
+				0D3C314B193D762B00F707E5 /* MAIN_底图.PNG */,
+				0D3C314C193D762B00F707E5 /* 户型标-点.png */,
+				0D3C314D193D762B00F707E5 /* 户型标.png */,
+				0D3C314E193D762B00F707E5 /* 房贷计算器标-点.png */,
+				0D3C314F193D762B00F707E5 /* 房贷计算器标.png */,
+				0D3C3150193D762B00F707E5 /* 集团标-点.png */,
+				0D3C3151193D762B00F707E5 /* 集团标.png */,
+				0D3C3152193D762B00F707E5 /* 项目标-点.png */,
+				0D3C3153193D762B00F707E5 /* 项目标.png */,
+			);
+			path = "主页";
+			sourceTree = "<group>";
+		};
+		873D284A193D9F6500F5DFCF /* ViewClass */ = {
+			isa = PBXGroup;
+			children = (
+				873D2865193DA7BE00F5DFCF /* StartView */,
+				873D2866193DA7CA00F5DFCF /* MainView */,
+				873D286C193DA92D00F5DFCF /* 360View */,
+				873D286B193DA8E600F5DFCF /* GroupIntroductionView */,
+				873D286A193DA8B100F5DFCF /* CalculatorView */,
+				873D2869193DA87A00F5DFCF /* MapView */,
+				873D2868193DA81200F5DFCF /* GradenView */,
+				873D2867193DA7D600F5DFCF /* HouseTypeView */,
+			);
+			name = ViewClass;
+			sourceTree = "<group>";
+		};
+		873D285B193DA64B00F5DFCF /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				873D284B193D9FA200F5DFCF /* HLRootViewController.h */,
+				873D284C193D9FA200F5DFCF /* HLRootViewController.mm */,
+			);
+			name = RootViewController;
+			sourceTree = "<group>";
+		};
+		873D2865193DA7BE00F5DFCF /* StartView */ = {
+			isa = PBXGroup;
+			children = (
+				873D2907193DAD8500F5DFCF /* HLStartAnimView.h */,
+				873D2908193DAD8500F5DFCF /* HLStartAnimView.mm */,
+				873D290A193DADC200F5DFCF /* HLStartAnimView.xib */,
+			);
+			name = StartView;
+			sourceTree = "<group>";
+		};
+		873D2866193DA7CA00F5DFCF /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				87F67A90193DB7C1006E5E01 /* HLMainView.h */,
+				87F67A91193DB7C1006E5E01 /* HLMainView.mm */,
+				87F67A93193DB7EA006E5E01 /* HLMainView.xib */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		873D2867193DA7D600F5DFCF /* HouseTypeView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HouseTypeView;
+			sourceTree = "<group>";
+		};
+		873D2868193DA81200F5DFCF /* GradenView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GradenView;
+			sourceTree = "<group>";
+		};
+		873D2869193DA87A00F5DFCF /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MapView;
+			sourceTree = "<group>";
+		};
+		873D286A193DA8B100F5DFCF /* CalculatorView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CalculatorView;
+			sourceTree = "<group>";
+		};
+		873D286B193DA8E600F5DFCF /* GroupIntroductionView */ = {
+			isa = PBXGroup;
+			children = (
+				870EB871193ECD5700307C70 /* GroupIntroductionView.h */,
+				870EB872193ECD5700307C70 /* GroupIntroductionView.mm */,
+				870EB874193ECD6E00307C70 /* GroupIntroductionView.xib */,
+			);
+			name = GroupIntroductionView;
+			sourceTree = "<group>";
+		};
+		873D286C193DA92D00F5DFCF /* 360View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 360View;
+			sourceTree = "<group>";
+		};
+		873D286D193DA98D00F5DFCF /* 园林 */ = {
+			isa = PBXGroup;
+			children = (
+				873D286E193DA98D00F5DFCF /* 园林1.PNG */,
+				873D286F193DA98D00F5DFCF /* 园林2.PNG */,
+				873D2870193DA98D00F5DFCF /* 园林3.PNG */,
+				873D2871193DA98D00F5DFCF /* 园林4.PNG */,
+				873D2872193DA98D00F5DFCF /* 园林5.PNG */,
+				873D2873193DA98D00F5DFCF /* 园林6.PNG */,
+				873D2874193DA98D00F5DFCF /* 园林7.PNG */,
+				873D2875193DA98D00F5DFCF /* 园林8.PNG */,
+				873D2876193DA98D00F5DFCF /* 园林9.PNG */,
+			);
+			path = "园林";
+			sourceTree = "<group>";
+		};
+		873D2880193DA99800F5DFCF /* 项目360 */ = {
+			isa = PBXGroup;
+			children = (
+				873D2881193DA99800F5DFCF /* 别墅按钮-点.PNG */,
+				873D2882193DA99800F5DFCF /* 别墅按钮.PNG */,
+				873D2883193DA99800F5DFCF /* 商业按钮-点.png */,
+				873D2884193DA99800F5DFCF /* 商业按钮.png */,
+				873D2885193DA99800F5DFCF /* 底图.png */,
+				873D2886193DA99800F5DFCF /* 洋房按钮-点.png */,
+				873D2887193DA99800F5DFCF /* 洋房按钮.png */,
+				873D2888193DA99800F5DFCF /* 高层按钮-点.png */,
+				873D2889193DA99800F5DFCF /* 高层按钮.png */,
+			);
+			path = "项目360";
+			sourceTree = "<group>";
+		};
+		873D2893193DA9A600F5DFCF /* 区域 */ = {
+			isa = PBXGroup;
+			children = (
+				873D2894193DA9A600F5DFCF /* 交通.png */,
+				873D2895193DA9A600F5DFCF /* 交通按钮.png */,
+				873D2896193DA9A600F5DFCF /* 医院.png */,
+				873D2897193DA9A600F5DFCF /* 医院按钮.png */,
+				873D2898193DA9A600F5DFCF /* 商业.png */,
+				873D2899193DA9A600F5DFCF /* 商业按钮.png */,
+				873D289A193DA9A600F5DFCF /* 地图.png */,
+				873D289B193DA9A600F5DFCF /* 娱乐.png */,
+				873D289C193DA9A600F5DFCF /* 娱乐按钮.png */,
+				873D289D193DA9A600F5DFCF /* 学校.png */,
+				873D289E193DA9A600F5DFCF /* 学校按钮.png */,
+				873D289F193DA9A600F5DFCF /* 底图.PNG */,
+				873D28A0193DA9A600F5DFCF /* 景点.png */,
+				873D28A1193DA9A600F5DFCF /* 景点按钮.png */,
+			);
+			path = "区域";
+			sourceTree = "<group>";
+		};
+		873D28B0193DA9AE00F5DFCF /* 计算器 */ = {
+			isa = PBXGroup;
+			children = (
+				873D28B1193DA9AE00F5DFCF /* 下拉菜单.png */,
+				873D28B2193DA9AE00F5DFCF /* 填写按钮-点.png */,
+				873D28B3193DA9AE00F5DFCF /* 填写按钮.png */,
+				873D28B4193DA9AE00F5DFCF /* 小选择框-点.png */,
+				873D28B5193DA9AE00F5DFCF /* 小选择框.png */,
+				873D28B6193DA9AE00F5DFCF /* 底图-文字.PNG */,
+				873D28B7193DA9AE00F5DFCF /* 底图.PNG */,
+				873D28B8193DA9AE00F5DFCF /* 按揭年数选择框.png */,
+				873D28B9193DA9AE00F5DFCF /* 按揭选择框.png */,
+				873D28BA193DA9AE00F5DFCF /* 计算按钮-点.png */,
+				873D28BB193DA9AE00F5DFCF /* 计算按钮.png */,
+				873D28BC193DA9AE00F5DFCF /* 贷款利率选择框-短.png */,
+				873D28BD193DA9AE00F5DFCF /* 贷款利率选择框.png */,
+				873D28BE193DA9AE00F5DFCF /* 长选择框.png */,
+			);
+			path = "计算器";
+			sourceTree = "<group>";
+		};
+		873D28CD193DA9B900F5DFCF /* 集团介绍 */ = {
+			isa = PBXGroup;
+			children = (
+				873D28CE193DA9B900F5DFCF /* 业务按钮-点.png */,
+				873D28CF193DA9B900F5DFCF /* 业务按钮.png */,
+				873D28D0193DA9B900F5DFCF /* 底图.PNG */,
+				873D28D1193DA9B900F5DFCF /* 荣誉按钮-点.png */,
+				873D28D2193DA9B900F5DFCF /* 荣誉按钮.png */,
+				873D28D3193DA9B900F5DFCF /* 返回按钮.png */,
+				873D28D4193DA9B900F5DFCF /* 链接按钮-点.png */,
+				873D28D5193DA9B900F5DFCF /* 链接按钮.png */,
+				873D28D6193DA9B900F5DFCF /* 集团按钮-点.png */,
+				873D28D7193DA9B900F5DFCF /* 集团按钮.png */,
+				873D28D8193DA9B900F5DFCF /* 项目按钮-点.png */,
+				873D28D9193DA9B900F5DFCF /* 项目按钮.png */,
+			);
+			path = "集团介绍";
+			sourceTree = "<group>";
+		};
+		873D28E6193DA9C200F5DFCF /* 户型 */ = {
+			isa = PBXGroup;
+			children = (
+				873D28E7193DA9C200F5DFCF /* 3D按钮-不用.png */,
+				873D28E8193DA9C200F5DFCF /* 3D按钮.png */,
+				873D28E9193DA9C200F5DFCF /* A5.png */,
+				873D28EA193DA9C200F5DFCF /* B5按钮.png */,
+				873D28EB193DA9C200F5DFCF /* C1按钮.png */,
+				873D28EC193DA9C200F5DFCF /* D2按钮.png */,
+				873D28ED193DA9C200F5DFCF /* E3.png */,
+				873D28EE193DA9C200F5DFCF /* 全景按钮-不用.png */,
+				873D28EF193DA9C200F5DFCF /* 全景按钮.png */,
+				873D28F0193DA9C200F5DFCF /* 右.PNG */,
+				873D28F1193DA9C200F5DFCF /* 平面按钮-不用.png */,
+				873D28F2193DA9C200F5DFCF /* 平面按钮.png */,
+				873D28F3193DA9C200F5DFCF /* 底图.PNG */,
+				873D28F4193DA9C200F5DFCF /* 底图1.PNG */,
+				873D28F5193DA9C200F5DFCF /* 计算器、按钮.png */,
+				873D28F6193DA9C200F5DFCF /* 计算器按钮-不用.png */,
+			);
+			path = "户型";
+			sourceTree = "<group>";
+		};
+		87F67A95193DBB7C006E5E01 /* startVedio */ = {
+			isa = PBXGroup;
+			children = (
+				87F67A98193DC5D3006E5E01 /* IMG_0866.MOV */,
+			);
+			name = startVedio;
+			sourceTree = "<group>";
+		};
+		BA86A1A1193CB61800E74E1F = {
+			isa = PBXGroup;
+			children = (
+				0D3C3142193D760600F707E5 /* resource */,
+				0D3C313E193D751100F707E5 /* ios_development(3).cer */,
+				0D3C313F193D751100F707E5 /* qhcmler.mobileprovision */,
+				BA86A1B3193CB61900E74E1F /* ShiMao */,
+				BA86A1AC193CB61900E74E1F /* Frameworks */,
+				BA86A1AB193CB61900E74E1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA86A1AB193CB61900E74E1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA86A1AA193CB61900E74E1F /* ShiMao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA86A1AC193CB61900E74E1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				873D290F193DB25700F5DFCF /* MediaPlayer.framework */,
+				BA86A1AD193CB61900E74E1F /* UIKit.framework */,
+				BA86A1AF193CB61900E74E1F /* Foundation.framework */,
+				BA86A1B1193CB61900E74E1F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA86A1B3193CB61900E74E1F /* ShiMao */ = {
+			isa = PBXGroup;
+			children = (
+				BA86A1BC193CB61900E74E1F /* AppDelegate.h */,
+				BA86A1BD193CB61900E74E1F /* AppDelegate.m */,
+				873D285D193DA6FE00F5DFCF /* ApplicationConfig.h */,
+				873D2862193DA79800F5DFCF /* HLPublicUtilTool.h */,
+				873D2863193DA79800F5DFCF /* HLPublicUtilTool.mm */,
+				873D290C193DB00600F5DFCF /* ViewManager.h */,
+				873D290D193DB00600F5DFCF /* ViewManager.mm */,
+				873D2858193DA64000F5DFCF /* HLCustomOriginView.h */,
+				873D2859193DA64000F5DFCF /* HLCustomOriginView.mm */,
+				873D285B193DA64B00F5DFCF /* RootViewController */,
+				873D284A193D9F6500F5DFCF /* ViewClass */,
+				BA86A1B4193CB61900E74E1F /* Supporting Files */,
+			);
+			path = ShiMao;
+			sourceTree = "<group>";
+		};
+		BA86A1B4193CB61900E74E1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA86A1B5193CB61900E74E1F /* ShiMao-Info.plist */,
+				BA86A1B6193CB61900E74E1F /* InfoPlist.strings */,
+				BA86A1B9193CB61900E74E1F /* main.m */,
+				BA86A1BB193CB61900E74E1F /* ShiMao-Prefix.pch */,
+				BA86A1BF193CB61900E74E1F /* Default.png */,
+				BA86A1C1193CB61900E74E1F /* Default@2x.png */,
+				BA86A1C3193CB61900E74E1F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA86A1A9193CB61800E74E1F /* ShiMao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA86A1C7193CB61900E74E1F /* Build configuration list for PBXNativeTarget "ShiMao" */;
+			buildPhases = (
+				BA86A1A6193CB61800E74E1F /* Sources */,
+				BA86A1A7193CB61800E74E1F /* Frameworks */,
+				BA86A1A8193CB61800E74E1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShiMao;
+			productName = ShiMao;
+			productReference = BA86A1AA193CB61900E74E1F /* ShiMao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA86A1A2193CB61800E74E1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = qinhao;
+			};
+			buildConfigurationList = BA86A1A5193CB61800E74E1F /* Build configuration list for PBXProject "ShiMao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA86A1A1193CB61800E74E1F;
+			productRefGroup = BA86A1AB193CB61900E74E1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA86A1A9193CB61800E74E1F /* ShiMao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA86A1A8193CB61800E74E1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873D28AD193DA9A600F5DFCF /* 底图.PNG in Resources */,
+				873D287E193DA98D00F5DFCF /* 园林8.PNG in Resources */,
+				873D2878193DA98D00F5DFCF /* 园林2.PNG in Resources */,
+				873D28C3193DA9AE00F5DFCF /* 小选择框.png in Resources */,
+				873D28A3193DA9A600F5DFCF /* 交通按钮.png in Resources */,
+				0D3C3159193D762B00F707E5 /* 宣传片标-点.png in Resources */,
+				873D287D193DA98D00F5DFCF /* 园林7.PNG in Resources */,
+				873D28DE193DA9B900F5DFCF /* 荣誉按钮.png in Resources */,
+				870EB875193ECD6E00307C70 /* GroupIntroductionView.xib in Resources */,
+				873D28DB193DA9B900F5DFCF /* 业务按钮.png in Resources */,
+				873D28CA193DA9AE00F5DFCF /* 贷款利率选择框-短.png in Resources */,
+				873D28AF193DA9A600F5DFCF /* 景点按钮.png in Resources */,
+				87F67A94193DB7EA006E5E01 /* HLMainView.xib in Resources */,
+				873D28E0193DA9B900F5DFCF /* 链接按钮-点.png in Resources */,
+				873D2892193DA99800F5DFCF /* 高层按钮.png in Resources */,
+				873D28AC193DA9A600F5DFCF /* 学校按钮.png in Resources */,
+				873D28C5193DA9AE00F5DFCF /* 底图.PNG in Resources */,
+				0D3C315E193D762B00F707E5 /* 房贷计算器标-点.png in Resources */,
+				87F67A99193DC5D3006E5E01 /* IMG_0866.MOV in Resources */,
+				0D3C3141193D751100F707E5 /* qhcmler.mobileprovision in Resources */,
+				873D28DF193DA9B900F5DFCF /* 返回按钮.png in Resources */,
+				0D3C3160193D762B00F707E5 /* 集团标-点.png in Resources */,
+				0D3C315C193D762B00F707E5 /* 户型标-点.png in Resources */,
+				873D28AB193DA9A600F5DFCF /* 学校.png in Resources */,
+				873D28A9193DA9A600F5DFCF /* 娱乐.png in Resources */,
+				873D28F9193DA9C200F5DFCF /* A5.png in Resources */,
+				873D288E193DA99800F5DFCF /* 底图.png in Resources */,
+				873D28C8193DA9AE00F5DFCF /* 计算按钮-点.png in Resources */,
+				0D3C3161193D762B00F707E5 /* 集团标.png in Resources */,
+				873D28E5193DA9B900F5DFCF /* 项目按钮.png in Resources */,
+				873D28A2193DA9A600F5DFCF /* 交通.png in Resources */,
+				0D3C3163193D762B00F707E5 /* 项目标.png in Resources */,
+				873D28A7193DA9A600F5DFCF /* 商业按钮.png in Resources */,
+				873D288A193DA99800F5DFCF /* 别墅按钮-点.PNG in Resources */,
+				873D2903193DA9C200F5DFCF /* 底图.PNG in Resources */,
+				873D28A6193DA9A600F5DFCF /* 商业.png in Resources */,
+				873D28FB193DA9C200F5DFCF /* C1按钮.png in Resources */,
+				873D28E4193DA9B900F5DFCF /* 项目按钮-点.png in Resources */,
+				0D3C3162193D762B00F707E5 /* 项目标-点.png in Resources */,
+				0D3C315D193D762B00F707E5 /* 户型标.png in Resources */,
+				873D2890193DA99800F5DFCF /* 洋房按钮.png in Resources */,
+				873D287F193DA98D00F5DFCF /* 园林9.PNG in Resources */,
+				873D28FE193DA9C200F5DFCF /* 全景按钮-不用.png in Resources */,
+				873D2902193DA9C200F5DFCF /* 平面按钮.png in Resources */,
+				873D2900193DA9C200F5DFCF /* 右.PNG in Resources */,
+				873D288F193DA99800F5DFCF /* 洋房按钮-点.png in Resources */,
+				873D287A193DA98D00F5DFCF /* 园林4.PNG in Resources */,
+				873D28E3193DA9B900F5DFCF /* 集团按钮.png in Resources */,
+				873D28C6193DA9AE00F5DFCF /* 按揭年数选择框.png in Resources */,
+				873D28E1193DA9B900F5DFCF /* 链接按钮.png in Resources */,
+				873D2879193DA98D00F5DFCF /* 园林3.PNG in Resources */,
+				873D28C4193DA9AE00F5DFCF /* 底图-文字.PNG in Resources */,
+				0D3C3157193D762B00F707E5 /* 园林标.png in Resources */,
+				873D2905193DA9C200F5DFCF /* 计算器、按钮.png in Resources */,
+				873D28FA193DA9C200F5DFCF /* B5按钮.png in Resources */,
+				873D28C0193DA9AE00F5DFCF /* 填写按钮-点.png in Resources */,
+				873D28DD193DA9B900F5DFCF /* 荣誉按钮-点.png in Resources */,
+				0D3C3154193D762B00F707E5 /* 区域标-点.png in Resources */,
+				873D2877193DA98D00F5DFCF /* 园林1.PNG in Resources */,
+				873D287B193DA98D00F5DFCF /* 园林5.PNG in Resources */,
+				873D290B193DADC200F5DFCF /* HLStartAnimView.xib in Resources */,
+				873D287C193DA98D00F5DFCF /* 园林6.PNG in Resources */,
+				873D2901193DA9C200F5DFCF /* 平面按钮-不用.png in Resources */,
+				873D2891193DA99800F5DFCF /* 高层按钮-点.png in Resources */,
+				873D28F7193DA9C200F5DFCF /* 3D按钮-不用.png in Resources */,
+				873D28A8193DA9A600F5DFCF /* 地图.png in Resources */,
+				0D3C3158193D762B00F707E5 /* 图标.png in Resources */,
+				0D3C3156193D762B00F707E5 /* 园林标-点.png in Resources */,
+				0D3C3155193D762B00F707E5 /* 区域标.png in Resources */,
+				873D28C9193DA9AE00F5DFCF /* 计算按钮.png in Resources */,
+				BA86A1B8193CB61900E74E1F /* InfoPlist.strings in Resources */,
+				0D3C3140193D751100F707E5 /* ios_development(3).cer in Resources */,
+				873D28C2193DA9AE00F5DFCF /* 小选择框-点.png in Resources */,
+				0D3C315A193D762B00F707E5 /* 宣传片标.png in Resources */,
+				873D28AE193DA9A600F5DFCF /* 景点.png in Resources */,
+				873D28E2193DA9B900F5DFCF /* 集团按钮-点.png in Resources */,
+				BA86A1C0193CB61900E74E1F /* Default.png in Resources */,
+				873D28CB193DA9AF00F5DFCF /* 贷款利率选择框.png in Resources */,
+				873D28A5193DA9A600F5DFCF /* 医院按钮.png in Resources */,
+				873D288B193DA99800F5DFCF /* 别墅按钮.PNG in Resources */,
+				BA86A1C2193CB61900E74E1F /* Default@2x.png in Resources */,
+				873D28AA193DA9A600F5DFCF /* 娱乐按钮.png in Resources */,
+				873D288C193DA99800F5DFCF /* 商业按钮-点.png in Resources */,
+				873D28FD193DA9C200F5DFCF /* E3.png in Resources */,
+				873D288D193DA99800F5DFCF /* 商业按钮.png in Resources */,
+				873D28F8193DA9C200F5DFCF /* 3D按钮.png in Resources */,
+				873D28A4193DA9A600F5DFCF /* 医院.png in Resources */,
+				873D28C7193DA9AE00F5DFCF /* 按揭选择框.png in Resources */,
+				873D28C1193DA9AE00F5DFCF /* 填写按钮.png in Resources */,
+				873D2904193DA9C200F5DFCF /* 底图1.PNG in Resources */,
+				0D3C315B193D762B00F707E5 /* MAIN_底图.PNG in Resources */,
+				0D3C315F193D762B00F707E5 /* 房贷计算器标.png in Resources */,
+				873D2906193DA9C200F5DFCF /* 计算器按钮-不用.png in Resources */,
+				873D28BF193DA9AE00F5DFCF /* 下拉菜单.png in Resources */,
+				873D28DA193DA9B900F5DFCF /* 业务按钮-点.png in Resources */,
+				873D28FF193DA9C200F5DFCF /* 全景按钮.png in Resources */,
+				873D28FC193DA9C200F5DFCF /* D2按钮.png in Resources */,
+				873D28CC193DA9AF00F5DFCF /* 长选择框.png in Resources */,
+				BA86A1C4193CB61900E74E1F /* Default-568h@2x.png in Resources */,
+				873D28DC193DA9B900F5DFCF /* 底图.PNG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA86A1A6193CB61800E74E1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA86A1BA193CB61900E74E1F /* main.m in Sources */,
+				870EB873193ECD5700307C70 /* GroupIntroductionView.mm in Sources */,
+				87F67A92193DB7C1006E5E01 /* HLMainView.mm in Sources */,
+				873D284D193D9FA200F5DFCF /* HLRootViewController.mm in Sources */,
+				873D2909193DAD8500F5DFCF /* HLStartAnimView.mm in Sources */,
+				873D290E193DB00600F5DFCF /* ViewManager.mm in Sources */,
+				873D2864193DA79800F5DFCF /* HLPublicUtilTool.mm in Sources */,
+				BA86A1BE193CB61900E74E1F /* AppDelegate.m in Sources */,
+				873D285A193DA64000F5DFCF /* HLCustomOriginView.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA86A1B6193CB61900E74E1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA86A1B7193CB61900E74E1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA86A1C5193CB61900E74E1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hao Qin (EPWSXKBHY9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hao Qin (EPWSXKBHY9)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "20586EF2-9FF7-4306-98D1-AD8FF6B197E5";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BA86A1C6193CB61900E74E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hao Qin (EPWSXKBHY9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hao Qin (EPWSXKBHY9)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "20586EF2-9FF7-4306-98D1-AD8FF6B197E5";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA86A1C8193CB61900E74E1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hao Qin (EPWSXKBHY9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hao Qin (EPWSXKBHY9)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShiMao/ShiMao-Prefix.pch";
+				INFOPLIST_FILE = "ShiMao/ShiMao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "20586EF2-9FF7-4306-98D1-AD8FF6B197E5";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA86A1C9193CB61900E74E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hao Qin (EPWSXKBHY9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hao Qin (EPWSXKBHY9)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShiMao/ShiMao-Prefix.pch";
+				INFOPLIST_FILE = "ShiMao/ShiMao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "20586EF2-9FF7-4306-98D1-AD8FF6B197E5";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA86A1A5193CB61800E74E1F /* Build configuration list for PBXProject "ShiMao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA86A1C5193CB61900E74E1F /* Debug */,
+				BA86A1C6193CB61900E74E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA86A1C7193CB61900E74E1F /* Build configuration list for PBXNativeTarget "ShiMao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA86A1C8193CB61900E74E1F /* Debug */,
+				BA86A1C9193CB61900E74E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA86A1A2193CB61800E74E1F /* Project object */;
+}
