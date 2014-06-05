@@ -13,6 +13,8 @@
 		0D16CEE219404A6E005BFE1E /* QHProjectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D16CEE119404A6E005BFE1E /* QHProjectView.xib */; };
 		0D16CEE51940549A005BFE1E /* QHGradenView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D16CEE41940549A005BFE1E /* QHGradenView.mm */; };
 		0D16CEE7194054BB005BFE1E /* QHGradenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D16CEE6194054BB005BFE1E /* QHGradenView.xib */; };
+		0D16CEEE1940711A005BFE1E /* QHHouseTypeView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D16CEED1940711A005BFE1E /* QHHouseTypeView.mm */; };
+		0D16CEF01940713F005BFE1E /* QHHouseTypeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D16CEEF1940713F005BFE1E /* QHHouseTypeView.xib */; };
 		0D3C3154193D762B00F707E5 /* 区域标-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3144193D762B00F707E5 /* 区域标-点.png */; };
 		0D3C3155193D762B00F707E5 /* 区域标.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3145193D762B00F707E5 /* 区域标.png */; };
 		0D3C3156193D762B00F707E5 /* 园林标-点.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C3146193D762B00F707E5 /* 园林标-点.png */; };
@@ -136,6 +138,9 @@
 		0D16CEE31940549A005BFE1E /* QHGradenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHGradenView.h; sourceTree = "<group>"; };
 		0D16CEE41940549A005BFE1E /* QHGradenView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QHGradenView.mm; sourceTree = "<group>"; };
 		0D16CEE6194054BB005BFE1E /* QHGradenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHGradenView.xib; sourceTree = "<group>"; };
+		0D16CEEC1940711A005BFE1E /* QHHouseTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHHouseTypeView.h; sourceTree = "<group>"; };
+		0D16CEED1940711A005BFE1E /* QHHouseTypeView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QHHouseTypeView.mm; sourceTree = "<group>"; };
+		0D16CEEF1940713F005BFE1E /* QHHouseTypeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHHouseTypeView.xib; sourceTree = "<group>"; };
 		0D3C3144193D762B00F707E5 /* 区域标-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "区域标-点.png"; sourceTree = "<group>"; };
 		0D3C3145193D762B00F707E5 /* 区域标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "区域标.png"; sourceTree = "<group>"; };
 		0D3C3146193D762B00F707E5 /* 园林标-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "园林标-点.png"; sourceTree = "<group>"; };
@@ -362,6 +367,9 @@
 		873D2867193DA7D600F5DFCF /* HouseTypeView */ = {
 			isa = PBXGroup;
 			children = (
+				0D16CEEC1940711A005BFE1E /* QHHouseTypeView.h */,
+				0D16CEED1940711A005BFE1E /* QHHouseTypeView.mm */,
+				0D16CEEF1940713F005BFE1E /* QHHouseTypeView.xib */,
 			);
 			name = HouseTypeView;
 			sourceTree = "<group>";
@@ -722,6 +730,7 @@
 				0D3C3155193D762B00F707E5 /* 区域标.png in Resources */,
 				873D28C9193DA9AE00F5DFCF /* 计算按钮.png in Resources */,
 				BA86A1B8193CB61900E74E1F /* InfoPlist.strings in Resources */,
+				0D16CEF01940713F005BFE1E /* QHHouseTypeView.xib in Resources */,
 				873D28C2193DA9AE00F5DFCF /* 小选择框-点.png in Resources */,
 				0D3C315A193D762B00F707E5 /* 宣传片标.png in Resources */,
 				873D28AE193DA9A600F5DFCF /* 景点.png in Resources */,
@@ -770,6 +779,7 @@
 				873D2864193DA79800F5DFCF /* HLPublicUtilTool.mm in Sources */,
 				BA86A1BE193CB61900E74E1F /* AppDelegate.m in Sources */,
 				873D285A193DA64000F5DFCF /* HLCustomOriginView.mm in Sources */,
+				0D16CEEE1940711A005BFE1E /* QHHouseTypeView.mm in Sources */,
 				0D16CEDB1940322E005BFE1E /* QHMapView.mm in Sources */,
 				0D16CEE51940549A005BFE1E /* QHGradenView.mm in Sources */,
 				0D16CEE019404A57005BFE1E /* QHProjectView.mm in Sources */,
