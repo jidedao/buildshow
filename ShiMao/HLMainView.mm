@@ -165,14 +165,15 @@
 //点击园林按钮
 - (IBAction)clickGradenViewBtn:(id)sender
 {
-    QHGradenView *gradenView = [QHGradenView createHLCustomView];
-    [self addSubview:gradenView];
+    QHGradenView *view = [QHGradenView createHLCustomView];
+    [self addSubview:view];
+    view.center = CGPointMake(view.center.x + WINSIZE_W/2, view.center.y);
     [UIView animateKeyframesWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
-        gradenView.center = CGPointMake(512, 384);
+        view.center = CGPointMake(512, 384);
     } completion:^(BOOL finished) {
         
     }];
-    [gradenView setWillRemoveBlock:^{
+    [view setWillRemoveBlock:^{
         
     }];
 }
