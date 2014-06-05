@@ -10,7 +10,12 @@
 #import "QHMapView.h"
 #import "GroupIntroductionView.h"
 #import "QHProjectView.h"
+<<<<<<< HEAD
 #import "CalculatorView.h"
+=======
+#import "QHGradenView.h"
+
+>>>>>>> 8c349819e26cf4bc94df0571b865eaec39ebf580
 @implementation HLMainView
 - (void)dealloc
 {
@@ -164,7 +169,16 @@
 //点击园林按钮
 - (IBAction)clickGradenViewBtn:(id)sender
 {
-    
+    QHGradenView *gradenView = [QHGradenView createHLCustomView];
+    [self addSubview:gradenView];
+    [UIView animateKeyframesWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
+        gradenView.center = CGPointMake(512, 384);
+    } completion:^(BOOL finished) {
+        
+    }];
+    [gradenView setWillRemoveBlock:^{
+        
+    }];
 }
 //点击户型按钮
 - (IBAction)clickHouseTypeViewBtn:(id)sender
