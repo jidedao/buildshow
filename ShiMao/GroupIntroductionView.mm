@@ -27,5 +27,9 @@
     // Drawing code
 }
 */
-
+- (IBAction)clickCloseBtn:(id)sender
+{
+    [super clickCloseBtn:nil];
+    [self removeFromSuperview];
+}
 @end

@@ -95,4 +95,12 @@
     [self.layer removeAllAnimations];
     [super removeFromSuperview];
 }
+
+- (IBAction)clickCloseBtn:(id)sender
+{
+    if (clickCloseBlock)
+    {
+        clickCloseBlock();
+    }
+}
 @end

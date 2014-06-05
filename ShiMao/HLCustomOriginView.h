@@ -24,4 +24,5 @@
 + (id)createViewWithNibName:(NSString *)nibName;
 - (void)initView;
 - (void)registerNotification;
+- (IBAction)clickCloseBtn:(id)sender;
 @end
