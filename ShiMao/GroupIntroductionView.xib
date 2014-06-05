@@ -11,13 +11,20 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="集团介绍_底图.png" id="qme-ev-k97">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="RBA-fF-1Oa">
-                    <rect key="frame" x="112" y="188" width="800" height="579"/>
+                    <rect key="frame" x="112" y="131" width="800" height="636"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.6935833579006101" green="0.41862324091947944" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <connections>
+                        <outlet property="delegate" destination="1" id="tSl-HF-rDY"/>
+                    </connections>
                 </textView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9cq-HA-5jy" userLabel="Button-返回">
                     <rect key="frame" x="0.0" y="59" width="92" height="44"/>
@@ -39,6 +46,9 @@
                     </state>
                     <state key="selected" image="集团按钮-点.png"/>
                     <state key="highlighted" image="集团按钮-点.png"/>
+                    <connections>
+                        <action selector="clickGroupIntroductionBtn:" destination="1" eventType="touchUpInside" id="KRy-dj-Gxe"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xOg-Rj-CGq" userLabel="Button - 集团业务">
                     <rect key="frame" x="191" y="59" width="101" height="44"/>
@@ -48,25 +58,71 @@
                     </state>
                     <state key="selected" image="业务按钮-点.png"/>
                     <state key="highlighted" image="业务按钮-点.png"/>
+                    <connections>
+                        <action selector="clickBusinessIntroductionBtn:" destination="1" eventType="touchUpInside" id="2To-ur-ReC"/>
+                    </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OkA-fb-udV" userLabel="Button - 集团项目">
-                    <rect key="frame" x="253" y="111" width="46" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OkA-fb-udV" userLabel="Button - 集团项目">
+                    <rect key="frame" x="292" y="59" width="100" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <state key="normal" title="Button">
+                    <state key="normal" image="项目按钮.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <state key="selected" image="项目按钮-点.png"/>
+                    <state key="highlighted" image="项目按钮-点.png"/>
+                    <connections>
+                        <action selector="clickProjectIntroductionBtn:" destination="1" eventType="touchUpInside" id="Thk-iF-Ndi"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="N3H-Rm-N1h" userLabel="Button - 集团荣誉">
+                    <rect key="frame" x="392" y="59" width="100" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="荣誉按钮.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" image="荣誉按钮-点.png"/>
+                    <state key="highlighted" image="荣誉按钮-点.png"/>
+                    <connections>
+                        <action selector="clickHonorIntroductionBtn:" destination="1" eventType="touchUpInside" id="ObR-wg-baz"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xRg-jD-GbH" userLabel="Button - 快速链接">
+                    <rect key="frame" x="492" y="59" width="100" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="链接按钮.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" image="链接按钮-点.png"/>
+                    <state key="highlighted" image="链接按钮-点.png"/>
+                    <connections>
+                        <action selector="clickLinkIntroductionBtn:" destination="1" eventType="touchUpInside" id="LY6-Wc-RnD"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="businessIntroductionBtn" destination="xOg-Rj-CGq" id="4xW-6p-f5D"/>
+                <outlet property="detailTextView" destination="RBA-fF-1Oa" id="nfM-y5-Cri"/>
+                <outlet property="groupIntroductionBtn" destination="wiM-A0-Mpk" id="Rmn-JO-mOX"/>
+                <outlet property="honorIntroductionBtn" destination="N3H-Rm-N1h" id="1Ha-5U-BaC"/>
+                <outlet property="linkIntroductionBtn" destination="xRg-jD-GbH" id="82o-Ny-Qd2"/>
+                <outlet property="projectIntroductionBtn" destination="OkA-fb-udV" id="5Ov-gv-gmF"/>
+            </connections>
         </view>
     </objects>
     <resources>
         <image name="业务按钮-点.png" width="203" height="88"/>
         <image name="业务按钮.png" width="203" height="88"/>
+        <image name="荣誉按钮-点.png" width="204" height="88"/>
+        <image name="荣誉按钮.png" width="204" height="88"/>
         <image name="返回按钮.png" width="184" height="88"/>
+        <image name="链接按钮-点.png" width="203" height="88"/>
+        <image name="链接按钮.png" width="203" height="88"/>
+        <image name="集团介绍_底图.png" width="2048" height="1536"/>
         <image name="集团按钮-点.png" width="203" height="88"/>
         <image name="集团按钮.png" width="203" height="88"/>
+        <image name="项目按钮-点.png" width="201" height="88"/>
+        <image name="项目按钮.png" width="201" height="88"/>
     </resources>
 </document>
