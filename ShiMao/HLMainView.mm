@@ -10,12 +10,8 @@
 #import "QHMapView.h"
 #import "GroupIntroductionView.h"
 #import "QHProjectView.h"
-<<<<<<< HEAD
 #import "CalculatorView.h"
-=======
 #import "QHGradenView.h"
-
->>>>>>> 8c349819e26cf4bc94df0571b865eaec39ebf580
 @implementation HLMainView
 - (void)dealloc
 {
